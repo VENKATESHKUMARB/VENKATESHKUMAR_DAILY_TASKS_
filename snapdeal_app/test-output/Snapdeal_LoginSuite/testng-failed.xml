@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Snapdeal_LoginSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Snapdeal_LoginTest(failed)">
+    <classes>
+      <class name="Snapdeal_login.Snapdeal_rigister">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testRegisterWithEmpty_emailfield"/>
+        </methods>
+      </class> <!-- Snapdeal_login.Snapdeal_rigister -->
+    </classes>
+  </test> <!-- Snapdeal_LoginTest(failed) -->
+</suite> <!-- Failed suite [Snapdeal_LoginSuite] -->

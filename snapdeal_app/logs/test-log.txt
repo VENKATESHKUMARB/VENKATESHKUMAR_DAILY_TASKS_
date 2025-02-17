@@ -1,0 +1,101 @@
+2025-02-17 13:38:40 - Testcase is Failed
+2025-02-17 13:41:28 - Test failed due to exception: InvalidSelectorException
+2025-02-17 13:43:25 - Testcase is Passed
+2025-02-17 13:43:52 - Testcase is Passed
+2025-02-17 13:46:39 - Testcase is Passed
+2025-02-17 13:47:47 - Testcase is Passed
+2025-02-17 13:47:55 - Testcase is Passed
+2025-02-17 13:49:21 - Testcase is Passed
+2025-02-17 13:49:28 - Testcase is Passed
+2025-02-17 14:15:38 - Testcase is Passed
+2025-02-17 14:16:55 - Testcase is Passed
+2025-02-17 14:17:01 - Testcase is Passed
+2025-02-17 14:17:08 - Testcase is Passed
+2025-02-17 14:17:14 - Testcase is Passed
+2025-02-17 14:17:41 - Testcase is Passed
+2025-02-17 14:17:48 - Testcase is Passed
+2025-02-17 14:17:59 - Testcase is Passed
+2025-02-17 14:18:12 - Testcase is Passed
+2025-02-17 14:18:28 - Testcase is Passed
+2025-02-17 14:18:45 - Testcase is Passed
+2025-02-17 14:19:04 - Test failed due to exception: NoSuchElementException
+2025-02-17 14:19:07 - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+2025-02-17 14:19:07 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+2025-02-17 14:19:18 - Testcase is Passed
+2025-02-17 14:19:24 - Testcase is Passed
+2025-02-17 14:20:03 - Testcase is Passed
+2025-02-17 14:20:18 - Testcase is Passed
+2025-02-17 14:20:27 - Testcase is Passed
+2025-02-17 15:39:28 - Test failed due to exception: NullPointerException
+2025-02-17 15:41:05 - Test failed due to exception: NullPointerException
+2025-02-17 15:46:27 - Testcase is Passed
+2025-02-17 15:46:34 - Testcase is Passed
+2025-02-17 15:46:41 - Testcase is Passed
+2025-02-17 15:46:48 - Testcase is Passed
+2025-02-17 15:51:25 - Testcase is Passed
+2025-02-17 15:51:42 - Testcase is Passed
+2025-02-17 15:55:23 - Testcase is Passed
+2025-02-17 15:57:12 - Testcase is Passed
+2025-02-17 15:57:23 - Testcase is Passed
+2025-02-17 16:01:55 - Test failed due to exception: NoSuchElementException
+2025-02-17 16:03:23 - Test failed due to exception: NoSuchElementException
+2025-02-17 16:04:57 - Test failed due to exception: NoSuchElementException
+2025-02-17 16:07:24 - Testcase is Passed
+2025-02-17 16:09:16 - Testcase is Passed
+2025-02-17 16:09:53 - Testcase is Passed
+2025-02-17 16:12:48 - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+2025-02-17 16:12:48 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+2025-02-17 16:12:58 - Testcase is Passed
+2025-02-17 16:13:00 - Testcase is Passed
+2025-02-17 16:17:29 - Testcase is Passed
+2025-02-17 16:17:37 - Testcase is Passed
+2025-02-17 16:17:45 - Testcase is Passed
+2025-02-17 16:19:09 - Testcase is Passed
+2025-02-17 16:19:35 - Testcase is Passed
+2025-02-17 16:19:43 - Testcase is Passed
+2025-02-17 16:19:49 - Testcase is Passed
+2025-02-17 16:23:46 - Test failed due to exception: NoSuchElementException
+2025-02-17 16:26:24 - Testcase is Passed
+2025-02-17 16:44:20 - Testcase is Passed
+2025-02-17 16:57:29 - Testcase is Passed
+2025-02-17 17:24:19 - Testcase is Passed
+2025-02-17 17:24:27 - Testcase is Passed
+2025-02-17 17:33:04 - Test failed due to exception: InvalidSelectorException
+2025-02-17 17:36:18 - Test failed due to exception: InvalidSelectorException
+2025-02-17 17:41:06 - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+2025-02-17 17:41:06 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+2025-02-17 17:41:15 - Testcase is Passed
+2025-02-17 17:41:38 - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+2025-02-17 17:41:38 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+2025-02-17 17:41:44 - Test failed due to exception: NoSuchElementException
+2025-02-17 17:42:05 - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+2025-02-17 17:42:05 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+2025-02-17 17:42:17 - Testcase is Passed
+2025-02-17 17:42:18 - Test failed due to exception: NoSuchElementException
+2025-02-17 17:42:54 - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+2025-02-17 17:42:54 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+2025-02-17 17:43:45 - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+2025-02-17 17:43:45 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+2025-02-17 17:43:53 - Testcase is Passed
+2025-02-17 17:52:00 - Testcase is Passed
+2025-02-17 17:52:20 - Testcase is Passed
+2025-02-17 17:53:01 - Testcase is Passed
+2025-02-17 17:53:23 - Testcase is Passed
+2025-02-17 17:53:45 - Testcase is Passed
+2025-02-17 17:55:51 - Testcase is Passed
+2025-02-17 17:57:14 - Testcase is Passed
+2025-02-17 17:57:35 - Testcase is Passed
+2025-02-17 17:57:52 - Testcase is Passed
+2025-02-17 21:59:18 - Testcase is Passed
+2025-02-17 21:59:32 - Testcase is Passed
+2025-02-17 22:02:15 - Testcase is Passed
+2025-02-17 22:06:13 - Testcase is Passed
+2025-02-17 22:20:46 - Testcase is Passed
+2025-02-17 22:39:51 - Testcase is Passed
+2025-02-17 22:40:52 - Testcase is Passed
+2025-02-17 22:41:02 - Testcase is Passed
+2025-02-17 22:47:49 - Testcase is Passed
+2025-02-17 22:49:19 - Testcase is Passed
+2025-02-17 22:49:28 - Testcase is Passed
+2025-02-17 22:51:02 - Testcase is Passed
+2025-02-17 22:51:11 - Testcase is Passed

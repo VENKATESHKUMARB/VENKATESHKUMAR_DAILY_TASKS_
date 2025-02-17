@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cart_suite">
+  <test thread-count="5" name="cart_test">
+    <classes>
+      <class name="snapdeal_cart.cart_button"/>
+      <class name="snapdeal_cart.product_pincode_check"/>
+      <class name="snapdeal_cart.cartbutton_item"/>
+      <class name="snapdeal_cart.productremove_cart"/>
+      <class name="snapdeal_cart.cartcancel_icon"/>
+    </classes>
+  </test> <!-- cart_test -->
+</suite> <!-- Cart_suite -->

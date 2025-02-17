@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <groups>
+  
+  <run>
+  
+  <include name="logo"></include>
+  
+  </run>
+  
+  
+  
+  </groups>
+  
+  
+    <classes>
+      <class name="Snapdeal_cart.SnapdealCart_page"/>
+      <class name="snapdeal_register_inputs.empty_email"/>
+      <class name="snapdeal_register_inputs.emptydob_field"/>
+      <class name="snapdeal_cart.cartcancel_icon"/>
+      <class name="snapdeal_app.productpage"/>
+      <class name="products_visible.products_visibility"/>
+      <class name="snapdeal_app.SnapdealLoginTest"/>
+      <class name="snapdeal_register_inputs.empty_name"/>
+      <class name="snapdeal_cart.product_pincode_check"/>
+      <class name="snapdeal_cart.cartbutton_item"/>
+      <class name="accountfunctionality.signin_visibility"/>
+      <class name="snapdeal_cart.productremove_cart"/>
+      <class name="snapdeal_register_inputs.invalidpassword"/>
+      <class name="snapdeal_app.emptyOtpfield"/>
+      <class name="snapdeal_app.productdetailsPage"/>
+      <class name="snapdeal_cart.cart_button"/>
+      <class name="products_details.products_detail_page"/>
+      <class name="Snapdeal_cart.SnapdealCart_Product_remove"/>
+      <class name="Snapdeal_login.Snapdeal_logo"/>
+      <class name="my_orders.confirm_order"/>
+      <class name="snapdeal_app.productpage_specialcharacters"/>
+      <class name="Snapdeal_login.Snapdeal_login"/>
+      <class name="snapdeal_catagories.products_catagories"/>
+      <class name="searchbar_visibility.searchbar_visibility"/>
+      <class name="snapdeal_register_inputs.empty_password"/>
+      <class name="Snapdeal_Product_search.product_search"/>
+      <class name="accountfunctionality.login_button"/>
+      <class name="Snapdeal_login.Snapdeal_rigister"/>
+      <class name="snapdeal_Product_search.Valid_Product_Search"/>
+      <class name="snapdeal_app.empty_field"/>
+      <class name="snapdeal_app.Register_"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
