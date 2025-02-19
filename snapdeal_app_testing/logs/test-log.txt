@@ -1,0 +1,189 @@
+2025-02-19 00:12:37 - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+2025-02-19 00:12:37 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+2025-02-19 09:50:39 - Testcase is Passed
+2025-02-19 09:52:46 - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+2025-02-19 09:52:46 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+2025-02-19 10:04:26 - Test failed due to exception: TimeoutException
+2025-02-19 10:07:30 - Test failed due to exception: TimeoutException
+2025-02-19 10:08:17 - Using chromedriver 133.0.6943.98 (resolved driver for Chrome 133)
+2025-02-19 10:08:17 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.98\chromedriver.exe
+2025-02-19 10:09:24 - Testcase is Passed
+2025-02-19 10:16:53 - Test failed due to exception: TimeoutException
+2025-02-19 10:35:33 - Test failed due to exception: TimeoutException
+2025-02-19 10:50:26 - Testcase is Passed
+2025-02-19 11:24:45 - Catagories banner Testcase is Passed
+2025-02-19 11:24:50 - catagories Backpacks Testcase is Passed
+2025-02-19 11:27:38 - Check Login Testcase is Passed(if OTP is Correct Successfully Login)
+2025-02-19 11:30:20 - Snapdeal Logo Testcase is Passed
+2025-02-19 11:35:56 - Footer 'Policy Info' Test Case is Passed
+2025-02-19 11:35:57 - Footer 'Policy Info' Test Case is Passed
+2025-02-19 11:35:59 - Footer 'Policy Info List' Test Case is Passed
+2025-02-19 11:35:59 - Footer 'Policy Info List' Test Case is Passed
+2025-02-19 11:37:12 - Footer 'Policy Info' Test Case is Passed
+2025-02-19 11:37:13 - Footer 'Policy Info List' Test Case is Passed
+2025-02-19 11:42:28 - 'Login Button' is visible TestCase is Passed 
+2025-02-19 11:42:28 - 'Login Button' is Clickable TestCase is Passed 
+2025-02-19 11:47:11 - 'Products' are Visible Testcase is Passed
+2025-02-19 11:47:19 - 'Products Detail page' are Visible Testcase is Passed
+2025-02-19 11:50:04 -  'My Searched Products' page is visible Testcase is Passed 
+2025-02-19 11:52:40 - Test failed due to exception: NullPointerException
+2025-02-19 12:12:15 - Test failed due to exception: NullPointerException
+2025-02-19 12:13:07 - Test failed due to exception: NullPointerException
+2025-02-19 12:14:00 - Test failed due to exception: Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "this.wait" is null
+2025-02-19 12:18:31 - 'Empty Input Field 'Testcase is Passed
+2025-02-19 12:21:21 - Testcase is Passed
+2025-02-19 12:24:49 - My SearchBar is Visible TestCase is Passed
+2025-02-19 12:25:05 - My SearchBar is Visible TestCase is Passed
+2025-02-19 12:25:09 - My SearchBar is Visible TestCase is Passed
+2025-02-19 12:28:06 - SignIn oprion is Visisble TestCase is Passed
+2025-02-19 12:28:07 - SignIn oprion is Clickable TestCase is Passed
+2025-02-19 12:30:56 - Using chromedriver 133.0.6943.126 (resolved driver for Chrome 133)
+2025-02-19 12:30:56 - Downloading https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/win64/chromedriver-win64.zip
+2025-02-19 12:30:57 - Extracting driver from compressed file chromedriver-win64.zip
+2025-02-19 12:30:58 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.126\chromedriver.exe
+2025-02-19 12:31:07 - 'Valid Products' TestCase is Passed
+2025-02-19 12:31:10 - 'Invalid Products' TestCase is Passed
+2025-02-19 14:05:44 - Using chromedriver 133.0.6943.126 (resolved driver for Chrome 133)
+2025-02-19 14:05:44 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.126\chromedriver.exe
+2025-02-19 14:05:57 - 'Invalid Products' TestCase is Passed
+2025-02-19 14:10:01 - Check Login Testcase is Passed(if OTP is Correct Successfully Login)
+2025-02-19 14:10:05 - Snapdeal Logo Testcase is Passed
+2025-02-19 14:10:12 - 'Empty Input Field 'Testcase is Passed
+2025-02-19 14:10:45 - Test failed due to exception: TimeoutException
+2025-02-19 14:11:18 - Test failed due to exception: TimeoutException
+2025-02-19 14:11:23 - My SearchBar is Visible TestCase is Passed
+2025-02-19 14:11:40 -  'My Searched Products' page is visible Testcase is Passed 
+2025-02-19 14:12:11 - 'Login Button' is visible TestCase is Passed 
+2025-02-19 14:12:11 - Using chromedriver 133.0.6943.126 (resolved driver for Chrome 133)
+2025-02-19 14:12:11 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.126\chromedriver.exe
+2025-02-19 14:12:21 - 'Valid Products' TestCase is Passed
+2025-02-19 14:12:46 - Footer 'Policy Info' Test Case is Passed
+2025-02-19 14:12:56 - 'Products' are Visible Testcase is Passed
+2025-02-19 14:13:12 - Catagories banner Testcase is Passed
+2025-02-19 14:13:26 - Testcase is Passed
+2025-02-19 14:19:02 - Test failed due to exception: TimeoutException
+2025-02-19 14:19:26 - Test failed due to exception: UnreachableBrowserException
+2025-02-19 14:20:35 - Test failed due to exception: TimeoutException
+2025-02-19 14:27:50 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:28:21 - Test failed due to exception: TimeoutException
+2025-02-19 14:30:14 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:30:45 - Test failed due to exception: TimeoutException
+2025-02-19 14:31:11 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:31:17 - Catagories banner Testcase is Passed
+2025-02-19 14:31:21 - catagories Backpacks Testcase is Passed
+2025-02-19 14:31:56 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:32:04 - Check Login Testcase is Passed(if OTP is Correct Successfully Login)
+2025-02-19 14:32:31 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:32:36 - Snapdeal Logo Testcase is Passed
+2025-02-19 14:33:11 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:33:16 - Footer 'Policy Info' Test Case is Passed
+2025-02-19 14:33:18 - Footer 'Policy Info List' Test Case is Passed
+2025-02-19 14:33:44 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:33:49 - 'Login Button' is visible TestCase is Passed 
+2025-02-19 14:33:50 - 'Login Button' is Clickable TestCase is Passed 
+2025-02-19 14:36:40 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:36:50 - 'Products' are Visible Testcase is Passed
+2025-02-19 14:36:59 - 'Products Detail page' are Visible Testcase is Passed
+2025-02-19 14:37:41 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:37:52 -  'My Searched Products' page is visible Testcase is Passed 
+2025-02-19 14:38:03 - Testcase is Passed
+2025-02-19 14:39:11 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:39:22 -  'My Searched Products' page is visible Testcase is Passed 
+2025-02-19 14:39:32 - Testcase is Passed
+2025-02-19 14:40:11 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:40:16 - Test failed due to exception: No frame element found by name or id loginIframe
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: driver.version: unknown
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-02-19 14:41:00 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-02-19 14:41:00 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\AppData\Local\Temp\testng-eclipse--826818057\testng-customsuite.xml
+
+2025-02-19 14:41:00 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-02-19 14:41:08 - 'Empty Input Field 'Testcase is Passed
+2025-02-19 14:41:08 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@720653c2: 0 ms
+2025-02-19 14:41:08 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@7b60c3e: 45 ms
+2025-02-19 14:41:08 - [TestNG] Time taken by org.testng.reporters.jq.Main@1dab9dd6: 56 ms
+2025-02-19 14:41:08 - [TestNG] Time taken by org.testng.reporters.FailedReporter@247667dd: 1 ms
+2025-02-19 14:41:08 - [TestNG] Time taken by org.testng.reporters.XMLReporter@458544e0: 23 ms
+2025-02-19 14:41:09 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@6d2d99fc: 22 ms
+2025-02-19 14:41:09 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4f20a5e0: 9 ms
+2025-02-19 14:42:03 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:42:11 - 'Empty Input Field 'Testcase is Passed
+2025-02-19 14:42:47 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:43:23 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:43:33 -  'My Searched Products' page is visible Testcase is Passed 
+2025-02-19 14:44:02 - Testcase is Passed
+2025-02-19 14:44:37 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:44:47 - My SearchBar is Visible TestCase is Passed
+2025-02-19 14:46:33 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:46:39 - SignIn oprion is Visisble TestCase is Passed
+2025-02-19 14:46:39 - SignIn oprion is Clickable TestCase is Passed
+2025-02-19 14:47:11 - [TestNG] Running:
+  C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app_testing\testng.xml
+
+2025-02-19 14:47:12 - Using chromedriver 133.0.6943.126 (resolved driver for Chrome 133)
+2025-02-19 14:47:12 - Exporting webdriver.chrome.driver as C:\Users\venkatesh.baskaran\.cache\selenium\chromedriver\win64\133.0.6943.126\chromedriver.exe
+2025-02-19 14:47:22 - 'Valid Products' TestCase is Passed
+2025-02-19 14:47:26 - 'Invalid Products' TestCase is Passed

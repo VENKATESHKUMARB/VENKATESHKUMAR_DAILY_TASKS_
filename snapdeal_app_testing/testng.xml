@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <groups>
+  
+  <run>
+  
+  <include name="productsearch"></include>
+  
+  </run>
+  
+  </groups>
+  
+  
+    <classes>
+      <class name="Login_test.Checklogin_test_page"/>
+      <class name="Login_test.Valid_invaliproducts_test_page"/>
+      <class name="Login_test.Products_visibility_test_page"/>
+      <class name="Login_test.Searchbar_test_page"/>
+      <class name="Login_test.Checklogo_test_page"/>
+      <class name="Login_test.Login_test_page"/>
+      <class name="Login_test.Signin_test_page"/>
+      <class name="Login_test.Register_test_page"/>
+      <class name="Login_test.Cart_test_page"/>
+      <class name="Login_test.Cartproductsremoval_test_page"/>
+      <class name="Login_test.Footer_test_page"/>
+      <class name="Login_test.Products_test_page"/>
+      <class name="Login_test.Categories_test_page"/>
+      <class name="Login_test.Search_test_page"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
