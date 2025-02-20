@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="16" total="20" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Suite Started: Test at 2025-02-20 23:39:15]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: testfooter_policyinfo at 2025-02-20 23:39:20]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Footer in 'Policy info' is visible.]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testfooter_policyinfo.png">click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: testfooter_policyinfo at 2025-02-20 23:39:20]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: testFooter_policyList at 2025-02-20 23:39:20]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Footer policy Info List]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testFooter_policyList.png">click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: testFooter_policyList at 2025-02-20 23:39:22]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: testProduct_catagories_Visibility at 2025-02-20 23:39:26]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  'Catagories Banner' is visible]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProduct_catagories_Visibility.png">click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: testProduct_catagories_Visibility at 2025-02-20 23:39:26]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: testCatagory_MensFashion_access at 2025-02-20 23:39:26]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  'Backpacks' catagory is clickable.]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testCatagory_MensFashion_access.png">click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: testCatagory_MensFashion_access at 2025-02-20 23:39:29]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-20T23:39:15 IST" name="Suite" finished-at="2025-02-20T23:39:29 IST" duration-ms="14545">
+    <groups>
+      <group name="catagories">
+        <method signature="products_catagories.testCatagory_MensFashion_access()[pri:2, instance:snapdeal_catagories.products_catagories@5e21e98f]" name="testCatagory_MensFashion_access" class="snapdeal_catagories.products_catagories"/>
+        <method signature="products_catagories.testProduct_catagories_Visibility()[pri:1, instance:snapdeal_catagories.products_catagories@5e21e98f]" name="testProduct_catagories_Visibility" class="snapdeal_catagories.products_catagories"/>
+      </group> <!-- catagories -->
+      <group name="Policyinfo">
+        <method signature="Footer_policyinfo.testFooter_policyList()[pri:2, instance:Snapdeal_Footerbanner.Footer_policyinfo@39b43d60]" name="testFooter_policyList" class="Snapdeal_Footerbanner.Footer_policyinfo"/>
+        <method signature="Footer_policyinfo.testfooter_policyinfo()[pri:1, instance:Snapdeal_Footerbanner.Footer_policyinfo@39b43d60]" name="testfooter_policyinfo" class="Snapdeal_Footerbanner.Footer_policyinfo"/>
+      </group> <!-- Policyinfo -->
+    </groups>
+    <test started-at="2025-02-20T23:39:15 IST" name="Test" finished-at="2025-02-20T23:39:29 IST" duration-ms="14545">
+      <class name="Snapdeal_Footerbanner.Footer_policyinfo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Snapdeal_Footerbanner.Footer_policyinfo@39b43d60]" started-at="2025-02-20T23:39:15 IST" name="setUp" finished-at="2025-02-20T23:39:20 IST" duration-ms="5164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testfooter_policyinfo()[pri:1, instance:Snapdeal_Footerbanner.Footer_policyinfo@39b43d60]" started-at="2025-02-20T23:39:20 IST" name="testfooter_policyinfo" finished-at="2025-02-20T23:39:20 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: testfooter_policyinfo at 2025-02-20 23:39:20]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Footer in 'Policy info' is visible.]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testfooter_policyinfo.png">click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: testfooter_policyinfo at 2025-02-20 23:39:20]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testfooter_policyinfo -->
+        <test-method signature="testFooter_policyList()[pri:2, instance:Snapdeal_Footerbanner.Footer_policyinfo@39b43d60]" started-at="2025-02-20T23:39:20 IST" name="testFooter_policyList" finished-at="2025-02-20T23:39:22 IST" duration-ms="1248" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: testFooter_policyList at 2025-02-20 23:39:20]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Footer policy Info List]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testFooter_policyList.png">click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: testFooter_policyList at 2025-02-20 23:39:22]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFooter_policyList -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:Snapdeal_Footerbanner.Footer_policyinfo@39b43d60]" started-at="2025-02-20T23:39:22 IST" name="shutDown" finished-at="2025-02-20T23:39:22 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Snapdeal_Footerbanner.Footer_policyinfo -->
+      <class name="snapdeal_catagories.products_catagories">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:snapdeal_catagories.products_catagories@5e21e98f]" started-at="2025-02-20T23:39:22 IST" name="setUp" finished-at="2025-02-20T23:39:26 IST" duration-ms="4332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProduct_catagories_Visibility()[pri:1, instance:snapdeal_catagories.products_catagories@5e21e98f]" started-at="2025-02-20T23:39:26 IST" name="testProduct_catagories_Visibility" finished-at="2025-02-20T23:39:26 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: testProduct_catagories_Visibility at 2025-02-20 23:39:26]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  'Catagories Banner' is visible]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProduct_catagories_Visibility.png">click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: testProduct_catagories_Visibility at 2025-02-20 23:39:26]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testProduct_catagories_Visibility -->
+        <test-method signature="testCatagory_MensFashion_access()[pri:2, instance:snapdeal_catagories.products_catagories@5e21e98f]" started-at="2025-02-20T23:39:26 IST" name="testCatagory_MensFashion_access" finished-at="2025-02-20T23:39:29 IST" duration-ms="2573" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: testCatagory_MensFashion_access at 2025-02-20 23:39:26]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  'Backpacks' catagory is clickable.]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testCatagory_MensFashion_access.png">click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: testCatagory_MensFashion_access at 2025-02-20 23:39:29]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCatagory_MensFashion_access -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:snapdeal_catagories.products_catagories@5e21e98f]" started-at="2025-02-20T23:39:29 IST" name="shutDown" finished-at="2025-02-20T23:39:29 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- snapdeal_catagories.products_catagories -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
