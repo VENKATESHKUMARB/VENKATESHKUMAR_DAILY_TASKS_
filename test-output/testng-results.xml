@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="18" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Suite Started: Test at 2025-02-23 22:47:20]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: cart_Item at  Date and Time : 2025-02-23 22:47:24 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Click the searchbar]]>
+    </line>
+    <line>
+      <![CDATA[Enter the values on the Searchbar (eg,fasttrack)]]>
+    </line>
+    <line>
+      <![CDATA[Click the search Icon]]>
+    </line>
+    <line>
+      <![CDATA[Test Failed: cart_Item at 2025-02-23 22:47:27 Duration: 3s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: footer_policyinfo at  Date and Time : 2025-02-23 22:47:36 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Find the 'Policy info', in Footer]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Footer in 'Policy info' is visible.]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testfooter_policyinfo.png">click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: footer_policyinfo at  Date and Time : 2025-02-23 22:47:36 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: Footer_policyList at  Date and Time : 2025-02-23 22:47:37 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Find the 'Policy info', in Footer]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Footer in 'Policy info' is visible.]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Footer in 'Terms of Sale' is visible.]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Footer in 'Terms of use' is visible.]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Footer in 'Takedown Policy' is visible.]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Footer in 'BIS Standard Policy' is visible.]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Footer in 'Products Under Cumpulsory BIS Certification' is visible.]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Footer in 'FAQ' is visible.]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Footer policy Info List]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testFooter_policyList.png">FooterPolicy_click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: Footer_policyList at  Date and Time : 2025-02-23 22:47:38 Duration: 1s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: testProduct_details at  Date and Time : 2025-02-23 22:47:42 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Click the SearchBar ]]>
+    </line>
+    <line>
+      <![CDATA[Enter the Keywords in the SearchBar ]]>
+    </line>
+    <line>
+      <![CDATA[Click the Search Icon ]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Products are Visible]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProduct_details.png">click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: testProduct_details at  Date and Time : 2025-02-23 22:47:52 Duration: 10s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: ProductDetailPage at  Date and Time : 2025-02-23 22:47:52 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Click the SearchBar ]]>
+    </line>
+    <line>
+      <![CDATA[Enter the Keywords in the SearchBar ]]>
+    </line>
+    <line>
+      <![CDATA[Click the Search Icon ]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Products Detail Page]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProductDetailPage.png">ProductDetail_click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: ProductDetailPage at  Date and Time : 2025-02-23 22:47:57 Duration: 4s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: removeCart at  Date and Time : 2025-02-23 22:48:15 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Click the searchbar]]>
+    </line>
+    <line>
+      <![CDATA[Enter the values on the Searchbar (eg,Shoes)]]>
+    </line>
+    <line>
+      <![CDATA[Click the search Icon]]>
+    </line>
+    <line>
+      <![CDATA[Test Failed: removeCart at 2025-02-23 22:48:43 Duration: 27s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: LogoVisibility at  Date and Time : 2025-02-23 22:48:47 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Snapdeal_brand Logo's are displayed.]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testLogoVisibility.png">SnapdealLogo_Click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: LogoVisibility at  Date and Time : 2025-02-23 22:48:47 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: Login at  Date and Time : 2025-02-23 22:48:54 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Hover over the 'Sign In' button ]]>
+    </line>
+    <line>
+      <![CDATA[Click  the 'Login' button ]]>
+    </line>
+    <line>
+      <![CDATA[Click  the 'usernameField' enter the values ]]>
+    </line>
+    <line>
+      <![CDATA[Click  the 'Continue' button ]]>
+    </line>
+    <line>
+      <![CDATA[Click  the 'otpField' enter the values ]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Login page is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\test_Login.png">Login_Click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: Login at  Date and Time : 2025-02-23 22:48:57 Duration: 2s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: Product_catagories_Visibility at  Date and Time : 2025-02-23 22:49:04 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Find the cartegories Banner]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  'Catagories Banner' is visible]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProduct_catagories_Visibility.png">click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: Product_catagories_Visibility at  Date and Time : 2025-02-23 22:49:04 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: Catagory_Bags_Luggage at  Date and Time : 2025-02-23 22:49:04 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Find the cartegories Banner]]>
+    </line>
+    <line>
+      <![CDATA[categories Banner in Find the Bags & Luggage]]>
+    </line>
+    <line>
+      <![CDATA[Click the 'Bags & Luggage']]>
+    </line>
+    <line>
+      <![CDATA[Verify the  'Backpacks' catagory is clickable.]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testCatagory_MensFashion_access.png">Categories_Click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: Catagory_Bags_Luggage at  Date and Time : 2025-02-23 22:49:07 Duration: 2s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: SearchAndProductVisibility at  Date and Time : 2025-02-23 22:49:12 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[click on the search Box ]]>
+    </line>
+    <line>
+      <![CDATA[Enter the Keywords to find the products ]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Products Serach & Products Visibility]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testSearchAndProductVisibility.png">Products_visibilityclick</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: SearchAndProductVisibility at  Date and Time : 2025-02-23 22:49:14 Duration: 2s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: testSearchbarVisibility at  Date and Time : 2025-02-23 22:49:22 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Search Bar Visibility]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testSearchbarVisibility.png">click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: testSearchbarVisibility at  Date and Time : 2025-02-23 22:49:22 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: SearchbarClickable at  Date and Time : 2025-02-23 22:49:22 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Click the searchbar]]>
+    </line>
+    <line>
+      <![CDATA[Click the searchbar and the Enter the Values (eg..fastracks)]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  SearchBar is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testSearchbarClickable.png">SearchBar_Click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: SearchbarClickable at  Date and Time : 2025-02-23 22:49:24 Duration: 2s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: SignInButtonVisibility at  Date and Time : 2025-02-23 22:49:28 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Verify the SignIn  is Hover]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Register  is Visible]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\SignInButtonVisibility.png">SignIn_Visible_Click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: SignInButtonVisibility at  Date and Time : 2025-02-23 22:49:28 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: SignInButtonClickable at  Date and Time : 2025-02-23 22:49:29 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Verify the SignIn  is Hover]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Register  is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\SignInButtonClickable.png">SignIn_Click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: SignInButtonClickable at  Date and Time : 2025-02-23 22:49:29 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: searchValidProduct at  Date and Time : 2025-02-23 22:49:31 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on search bar]]>
+    </line>
+    <line>
+      <![CDATA[Entered product name 'shoes' into search bar.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on search bar icon]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Valid product search results are displayed.]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\searchValidProduct.png">click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: searchValidProduct at  Date and Time : 2025-02-23 22:49:36 Duration: 5s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: searchInvalidProduct at  Date and Time : 2025-02-23 22:49:37 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Entered product name 'xhgr' into search bar.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on search icon]]>
+    </line>
+    <line>
+      <![CDATA[Verify the  Valid product search results are displayed.]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\searchInvalidProduct.png">ProductSearch_Click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: searchInvalidProduct at  Date and Time : 2025-02-23 22:49:41 Duration: 3s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: LoginButtonVisibility at  Date and Time : 2025-02-23 22:49:46 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Verify the SignIn is  Hover]]>
+    </line>
+    <line>
+      <![CDATA[Verify the login Button is Visible]]>
+    </line>
+    <line>
+      <![CDATA[<a href='null'>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: LoginButtonVisibility at  Date and Time : 2025-02-23 22:49:46 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: LoginButtonClickable at  Date and Time : 2025-02-23 22:49:47 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Verify the SignIn is Hover]]>
+    </line>
+    <line>
+      <![CDATA[Verify the login Button is Clickable]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testLoginButtonClickable.png">Login_button_Click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: LoginButtonClickable at  Date and Time : 2025-02-23 22:49:52 Duration: 5s]]>
+    </line>
+    <line>
+      <![CDATA[Test Started: RegisterWithEmptyEmailField at  Date and Time : 2025-02-23 22:49:56 Duration: 0s]]>
+    </line>
+    <line>
+      <![CDATA[Hover on the 'Sign In' button ]]>
+    </line>
+    <line>
+      <![CDATA[Click on the 'Register' button ]]>
+    </line>
+    <line>
+      <![CDATA[Click on the 'mobileNumberField' enter the Mobile Number ]]>
+    </line>
+    <line>
+      <![CDATA[Click on the 'Continue' button ]]>
+    </line>
+    <line>
+      <![CDATA[Click on the 'emailField' empty space ]]>
+    </line>
+    <line>
+      <![CDATA[Click on the 'nameField' enter the enter the Name ]]>
+    </line>
+    <line>
+      <![CDATA[Click on the 'passwordField' enter the enter the Password ]]>
+    </line>
+    <line>
+      <![CDATA[Click on the 'Continue' button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify the Error message for empty email field is empty]]>
+    </line>
+    <line>
+      <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testRegisterWithEmptyEmailField.png">Register_Click</a>]]>
+    </line>
+    <line>
+      <![CDATA[Test Passed: RegisterWithEmptyEmailField at  Date and Time : 2025-02-23 22:49:58 Duration: 1s]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-23T22:47:20 IST" name="Suite" finished-at="2025-02-23T22:49:59 IST" duration-ms="158913">
+    <groups>
+      <group name="productsearch">
+        <method signature="product_search.searchInvalidProduct()[pri:2, instance:Snapdeal_Product_search.product_search@7c3fdb62]" name="searchInvalidProduct" class="Snapdeal_Product_search.product_search"/>
+        <method signature="product_search.searchValidProduct()[pri:1, instance:Snapdeal_Product_search.product_search@7c3fdb62]" name="searchValidProduct" class="Snapdeal_Product_search.product_search"/>
+      </group> <!-- productsearch -->
+      <group name="login">
+        <method signature="login_button.LoginButtonClickable()[pri:2, instance:accountfunctionality.login_button@205d38da]" name="LoginButtonClickable" class="accountfunctionality.login_button"/>
+        <method signature="login_button.LoginButtonVisibility()[pri:1, instance:accountfunctionality.login_button@205d38da]" name="LoginButtonVisibility" class="accountfunctionality.login_button"/>
+      </group> <!-- login -->
+      <group name="productsdisplay">
+        <method signature="products_detail_page.ProductDetailPage()[pri:2, instance:products_details.products_detail_page@93081b6]" name="ProductDetailPage" class="products_details.products_detail_page"/>
+        <method signature="products_detail_page.testProduct_details()[pri:1, instance:products_details.products_detail_page@93081b6]" name="testProduct_details" class="products_details.products_detail_page"/>
+      </group> <!-- productsdisplay -->
+      <group name="searchbarclick">
+        <method signature="searchbar_visibility.SearchbarClickable()[pri:2, instance:searchbar_visibility.searchbar_visibility@26adfd2d]" name="SearchbarClickable" class="searchbar_visibility.searchbar_visibility"/>
+      </group> <!-- searchbarclick -->
+      <group name="functional_login">
+        <method signature="Snapdeal_login.Login()[pri:0, instance:Snapdeal_login.Snapdeal_login@1890516e]" name="Login" class="Snapdeal_login.Snapdeal_login"/>
+      </group> <!-- functional_login -->
+      <group name="catagories">
+        <method signature="products_catagories.Catagory_Bags_Luggage()[pri:2, instance:snapdeal_catagories.products_catagories@2bec854f]" name="Catagory_Bags_Luggage" class="snapdeal_catagories.products_catagories"/>
+        <method signature="products_catagories.Product_catagories_Visibility()[pri:1, instance:snapdeal_catagories.products_catagories@2bec854f]" name="Product_catagories_Visibility" class="snapdeal_catagories.products_catagories"/>
+      </group> <!-- catagories -->
+      <group name="Policyinfo">
+        <method signature="Footer_policyinfo.Footer_policyList()[pri:2, instance:Snapdeal_Footerbanner.Footer_policyinfo@24c22fe]" name="Footer_policyList" class="Snapdeal_Footerbanner.Footer_policyinfo"/>
+        <method signature="Footer_policyinfo.footer_policyinfo()[pri:1, instance:Snapdeal_Footerbanner.Footer_policyinfo@24c22fe]" name="footer_policyinfo" class="Snapdeal_Footerbanner.Footer_policyinfo"/>
+      </group> <!-- Policyinfo -->
+      <group name="signin">
+        <method signature="signin_visibility.SignInButtonClickable()[pri:2, instance:accountfunctionality.signin_visibility@3336e6b6]" name="SignInButtonClickable" class="accountfunctionality.signin_visibility"/>
+        <method signature="signin_visibility.SignInButtonVisibility()[pri:1, instance:accountfunctionality.signin_visibility@3336e6b6]" name="SignInButtonVisibility" class="accountfunctionality.signin_visibility"/>
+      </group> <!-- signin -->
+      <group name="logo">
+        <method signature="Snapdeal_logo.LogoVisibility()[pri:0, instance:Snapdeal_login.Snapdeal_logo@7ba8c737]" name="LogoVisibility" class="Snapdeal_login.Snapdeal_logo"/>
+      </group> <!-- logo -->
+      <group name="search_productvisibility">
+        <method signature="products_visibility.SearchAndProductVisibility()[pri:1, instance:products_visible.products_visibility@31edaa7d]" name="SearchAndProductVisibility" class="products_visible.products_visibility"/>
+      </group> <!-- search_productvisibility -->
+      <group name="product_remove">
+        <method signature="SnapdealCart_Product_remove.removeCart()[pri:0, instance:Snapdeal_cart.SnapdealCart_Product_remove@cd1e646]" name="removeCart" class="Snapdeal_cart.SnapdealCart_Product_remove"/>
+      </group> <!-- product_remove -->
+      <group name="searchbarvisible">
+        <method signature="searchbar_visibility.testSearchbarVisibility()[pri:1, instance:searchbar_visibility.searchbar_visibility@26adfd2d]" name="testSearchbarVisibility" class="searchbar_visibility.searchbar_visibility"/>
+      </group> <!-- searchbarvisible -->
+      <group name="register">
+        <method signature="Snapdeal_rigister.RegisterWithEmptyEmailField()[pri:0, instance:Snapdeal_login.Snapdeal_rigister@6950ed69]" name="RegisterWithEmptyEmailField" class="Snapdeal_login.Snapdeal_rigister"/>
+      </group> <!-- register -->
+      <group name="cartpage">
+        <method signature="SnapdealCart_page.cart_Item()[pri:0, instance:Snapdeal_cart.SnapdealCart_page@34b9f960]" name="cart_Item" class="Snapdeal_cart.SnapdealCart_page"/>
+      </group> <!-- cartpage -->
+    </groups>
+    <test started-at="2025-02-23T22:47:20 IST" name="Test" finished-at="2025-02-23T22:49:59 IST" duration-ms="158913">
+      <class name="Snapdeal_login.Snapdeal_login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Snapdeal_login.Snapdeal_login@1890516e]" started-at="2025-02-23T22:48:47 IST" name="setUp" finished-at="2025-02-23T22:48:54 IST" duration-ms="6802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login()[pri:0, instance:Snapdeal_login.Snapdeal_login@1890516e]" started-at="2025-02-23T22:48:54 IST" name="Login" description="Verify the Login Functionality " finished-at="2025-02-23T22:48:57 IST" duration-ms="2725" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: Login at  Date and Time : 2025-02-23 22:48:54 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Hover over the 'Sign In' button ]]>
+            </line>
+            <line>
+              <![CDATA[Click  the 'Login' button ]]>
+            </line>
+            <line>
+              <![CDATA[Click  the 'usernameField' enter the values ]]>
+            </line>
+            <line>
+              <![CDATA[Click  the 'Continue' button ]]>
+            </line>
+            <line>
+              <![CDATA[Click  the 'otpField' enter the values ]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Login page is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\test_Login.png">Login_Click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: Login at  Date and Time : 2025-02-23 22:48:57 Duration: 2s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Snapdeal_login.Snapdeal_login@1890516e]" started-at="2025-02-23T22:48:57 IST" name="screenshot" finished-at="2025-02-23T22:48:57 IST" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=Snapdeal_login.Login()[pri:0, instance:Snapdeal_login.Snapdeal_login@1890516e] output=Test Started: Login at  Date and Time : 2025-02-23 22:48:54 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:Snapdeal_login.Snapdeal_login@1890516e]" started-at="2025-02-23T22:48:57 IST" name="shutDown" finished-at="2025-02-23T22:48:58 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Snapdeal_login.Snapdeal_login -->
+      <class name="Snapdeal_login.Snapdeal_rigister">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Snapdeal_login.Snapdeal_rigister@6950ed69]" started-at="2025-02-23T22:49:52 IST" name="setUp" finished-at="2025-02-23T22:49:56 IST" duration-ms="3889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="RegisterWithEmptyEmailField()[pri:0, instance:Snapdeal_login.Snapdeal_rigister@6950ed69]" started-at="2025-02-23T22:49:56 IST" name="RegisterWithEmptyEmailField" description="Verify the Register Functionality " finished-at="2025-02-23T22:49:58 IST" duration-ms="1882" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: RegisterWithEmptyEmailField at  Date and Time : 2025-02-23 22:49:56 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Hover on the 'Sign In' button ]]>
+            </line>
+            <line>
+              <![CDATA[Click on the 'Register' button ]]>
+            </line>
+            <line>
+              <![CDATA[Click on the 'mobileNumberField' enter the Mobile Number ]]>
+            </line>
+            <line>
+              <![CDATA[Click on the 'Continue' button ]]>
+            </line>
+            <line>
+              <![CDATA[Click on the 'emailField' empty space ]]>
+            </line>
+            <line>
+              <![CDATA[Click on the 'nameField' enter the enter the Name ]]>
+            </line>
+            <line>
+              <![CDATA[Click on the 'passwordField' enter the enter the Password ]]>
+            </line>
+            <line>
+              <![CDATA[Click on the 'Continue' button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Error message for empty email field is empty]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testRegisterWithEmptyEmailField.png">Register_Click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: RegisterWithEmptyEmailField at  Date and Time : 2025-02-23 22:49:58 Duration: 1s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RegisterWithEmptyEmailField -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Snapdeal_login.Snapdeal_rigister@6950ed69]" started-at="2025-02-23T22:49:58 IST" name="screenshot" finished-at="2025-02-23T22:49:58 IST" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterWithEmptyEmailField status=SUCCESS method=Snapdeal_rigister.RegisterWithEmptyEmailField()[pri:0, instance:Snapdeal_login.Snapdeal_rigister@6950ed69] output=Test Started: RegisterWithEmptyEmailField at  Date and Time : 2025-02-23 22:49:56 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:Snapdeal_login.Snapdeal_rigister@6950ed69]" started-at="2025-02-23T22:49:58 IST" name="shutDown" finished-at="2025-02-23T22:49:59 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Snapdeal_login.Snapdeal_rigister -->
+      <class name="accountfunctionality.login_button">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:accountfunctionality.login_button@205d38da]" started-at="2025-02-23T22:49:41 IST" name="setUp" finished-at="2025-02-23T22:49:46 IST" duration-ms="4696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginButtonVisibility()[pri:1, instance:accountfunctionality.login_button@205d38da]" started-at="2025-02-23T22:49:46 IST" name="LoginButtonVisibility" description="Verify the login Button is Visible " finished-at="2025-02-23T22:49:46 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: LoginButtonVisibility at  Date and Time : 2025-02-23 22:49:46 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Verify the SignIn is  Hover]]>
+            </line>
+            <line>
+              <![CDATA[Verify the login Button is Visible]]>
+            </line>
+            <line>
+              <![CDATA[<a href='null'>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: LoginButtonVisibility at  Date and Time : 2025-02-23 22:49:46 Duration: 0s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginButtonVisibility -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:accountfunctionality.login_button@205d38da]" started-at="2025-02-23T22:49:46 IST" name="screenshot" finished-at="2025-02-23T22:49:47 IST" duration-ms="312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginButtonVisibility status=SUCCESS method=login_button.LoginButtonVisibility()[pri:1, instance:accountfunctionality.login_button@205d38da] output=Test Started: LoginButtonVisibility at  Date and Time : 2025-02-23 22:49:46 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="LoginButtonClickable()[pri:2, instance:accountfunctionality.login_button@205d38da]" started-at="2025-02-23T22:49:47 IST" name="LoginButtonClickable" description="Verify the login Button is Clickable" finished-at="2025-02-23T22:49:52 IST" duration-ms="5463" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: LoginButtonClickable at  Date and Time : 2025-02-23 22:49:47 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Verify the SignIn is Hover]]>
+            </line>
+            <line>
+              <![CDATA[Verify the login Button is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testLoginButtonClickable.png">Login_button_Click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: LoginButtonClickable at  Date and Time : 2025-02-23 22:49:52 Duration: 5s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginButtonClickable -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:accountfunctionality.login_button@205d38da]" started-at="2025-02-23T22:49:52 IST" name="screenshot" finished-at="2025-02-23T22:49:52 IST" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginButtonClickable status=SUCCESS method=login_button.LoginButtonClickable()[pri:2, instance:accountfunctionality.login_button@205d38da] output=Test Started: LoginButtonClickable at  Date and Time : 2025-02-23 22:49:47 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:accountfunctionality.login_button@205d38da]" started-at="2025-02-23T22:49:52 IST" name="shutDown" finished-at="2025-02-23T22:49:52 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- accountfunctionality.login_button -->
+      <class name="products_visible.products_visibility">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:products_visible.products_visibility@31edaa7d]" started-at="2025-02-23T22:49:07 IST" name="setUp" finished-at="2025-02-23T22:49:12 IST" duration-ms="4101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SearchAndProductVisibility()[pri:1, instance:products_visible.products_visibility@31edaa7d]" started-at="2025-02-23T22:49:12 IST" name="SearchAndProductVisibility" description="Verify the Products are Visibility" finished-at="2025-02-23T22:49:14 IST" duration-ms="2457" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: SearchAndProductVisibility at  Date and Time : 2025-02-23 22:49:12 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[click on the search Box ]]>
+            </line>
+            <line>
+              <![CDATA[Enter the Keywords to find the products ]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Products Serach & Products Visibility]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testSearchAndProductVisibility.png">Products_visibilityclick</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: SearchAndProductVisibility at  Date and Time : 2025-02-23 22:49:14 Duration: 2s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchAndProductVisibility -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:products_visible.products_visibility@31edaa7d]" started-at="2025-02-23T22:49:14 IST" name="screenshot" finished-at="2025-02-23T22:49:14 IST" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchAndProductVisibility status=SUCCESS method=products_visibility.SearchAndProductVisibility()[pri:1, instance:products_visible.products_visibility@31edaa7d] output=Test Started: SearchAndProductVisibility at  Date and Time : 2025-02-23 22:49:12 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:products_visible.products_visibility@31edaa7d]" started-at="2025-02-23T22:49:14 IST" name="shutDown" finished-at="2025-02-23T22:49:15 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- products_visible.products_visibility -->
+      <class name="Snapdeal_login.Snapdeal_logo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Snapdeal_login.Snapdeal_logo@7ba8c737]" started-at="2025-02-23T22:48:43 IST" name="setUp" finished-at="2025-02-23T22:48:47 IST" duration-ms="3683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LogoVisibility()[pri:0, instance:Snapdeal_login.Snapdeal_logo@7ba8c737]" started-at="2025-02-23T22:48:47 IST" name="LogoVisibility" description="Verify the Brand Logo&#039;s are Displayed " finished-at="2025-02-23T22:48:47 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: LogoVisibility at  Date and Time : 2025-02-23 22:48:47 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Snapdeal_brand Logo's are displayed.]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testLogoVisibility.png">SnapdealLogo_Click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: LogoVisibility at  Date and Time : 2025-02-23 22:48:47 Duration: 0s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogoVisibility -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Snapdeal_login.Snapdeal_logo@7ba8c737]" started-at="2025-02-23T22:48:47 IST" name="screenshot" finished-at="2025-02-23T22:48:47 IST" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogoVisibility status=SUCCESS method=Snapdeal_logo.LogoVisibility()[pri:0, instance:Snapdeal_login.Snapdeal_logo@7ba8c737] output=Test Started: LogoVisibility at  Date and Time : 2025-02-23 22:48:47 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:Snapdeal_login.Snapdeal_logo@7ba8c737]" started-at="2025-02-23T22:48:47 IST" name="shutDown" finished-at="2025-02-23T22:48:47 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Snapdeal_login.Snapdeal_logo -->
+      <class name="accountfunctionality.signin_visibility">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:accountfunctionality.signin_visibility@3336e6b6]" started-at="2025-02-23T22:49:25 IST" name="setUp" finished-at="2025-02-23T22:49:28 IST" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SignInButtonVisibility()[pri:1, instance:accountfunctionality.signin_visibility@3336e6b6]" started-at="2025-02-23T22:49:28 IST" name="SignInButtonVisibility" description="Verify the SignIn Button is Visible" finished-at="2025-02-23T22:49:28 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: SignInButtonVisibility at  Date and Time : 2025-02-23 22:49:28 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Verify the SignIn  is Hover]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Register  is Visible]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\SignInButtonVisibility.png">SignIn_Visible_Click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: SignInButtonVisibility at  Date and Time : 2025-02-23 22:49:28 Duration: 0s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignInButtonVisibility -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:accountfunctionality.signin_visibility@3336e6b6]" started-at="2025-02-23T22:49:28 IST" name="screenshot" finished-at="2025-02-23T22:49:29 IST" duration-ms="382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignInButtonVisibility status=SUCCESS method=signin_visibility.SignInButtonVisibility()[pri:1, instance:accountfunctionality.signin_visibility@3336e6b6] output=Test Started: SignInButtonVisibility at  Date and Time : 2025-02-23 22:49:28 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="SignInButtonClickable()[pri:2, instance:accountfunctionality.signin_visibility@3336e6b6]" started-at="2025-02-23T22:49:29 IST" name="SignInButtonClickable" description="Verify the Signin Button is Clickable" finished-at="2025-02-23T22:49:29 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: SignInButtonClickable at  Date and Time : 2025-02-23 22:49:29 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Verify the SignIn  is Hover]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Register  is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\SignInButtonClickable.png">SignIn_Click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: SignInButtonClickable at  Date and Time : 2025-02-23 22:49:29 Duration: 0s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignInButtonClickable -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:accountfunctionality.signin_visibility@3336e6b6]" started-at="2025-02-23T22:49:29 IST" name="screenshot" finished-at="2025-02-23T22:49:29 IST" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignInButtonClickable status=SUCCESS method=signin_visibility.SignInButtonClickable()[pri:2, instance:accountfunctionality.signin_visibility@3336e6b6] output=Test Started: SignInButtonClickable at  Date and Time : 2025-02-23 22:49:29 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:accountfunctionality.signin_visibility@3336e6b6]" started-at="2025-02-23T22:49:29 IST" name="shutDown" finished-at="2025-02-23T22:49:30 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- accountfunctionality.signin_visibility -->
+      <class name="Snapdeal_Product_search.product_search">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Snapdeal_Product_search.product_search@7c3fdb62]" started-at="2025-02-23T22:49:30 IST" name="setUp" finished-at="2025-02-23T22:49:31 IST" duration-ms="1735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchValidProduct()[pri:1, instance:Snapdeal_Product_search.product_search@7c3fdb62]" started-at="2025-02-23T22:49:31 IST" name="searchValidProduct" description="Verify the valid Products List are Visible" finished-at="2025-02-23T22:49:36 IST" duration-ms="5069" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: searchValidProduct at  Date and Time : 2025-02-23 22:49:31 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on search bar]]>
+            </line>
+            <line>
+              <![CDATA[Entered product name 'shoes' into search bar.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on search bar icon]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Valid product search results are displayed.]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\searchValidProduct.png">click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: searchValidProduct at  Date and Time : 2025-02-23 22:49:36 Duration: 5s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchValidProduct -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Snapdeal_Product_search.product_search@7c3fdb62]" started-at="2025-02-23T22:49:36 IST" name="screenshot" finished-at="2025-02-23T22:49:37 IST" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchValidProduct status=SUCCESS method=product_search.searchValidProduct()[pri:1, instance:Snapdeal_Product_search.product_search@7c3fdb62] output=Test Started: searchValidProduct at  Date and Time : 2025-02-23 22:49:31 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="searchInvalidProduct()[pri:2, instance:Snapdeal_Product_search.product_search@7c3fdb62]" started-at="2025-02-23T22:49:37 IST" name="searchInvalidProduct" description="Verify the Invalid product Banner are Visible" finished-at="2025-02-23T22:49:41 IST" duration-ms="3889" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: searchInvalidProduct at  Date and Time : 2025-02-23 22:49:37 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Entered product name 'xhgr' into search bar.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on search icon]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Valid product search results are displayed.]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\searchInvalidProduct.png">ProductSearch_Click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: searchInvalidProduct at  Date and Time : 2025-02-23 22:49:41 Duration: 3s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchInvalidProduct -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Snapdeal_Product_search.product_search@7c3fdb62]" started-at="2025-02-23T22:49:41 IST" name="screenshot" finished-at="2025-02-23T22:49:41 IST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchInvalidProduct status=SUCCESS method=product_search.searchInvalidProduct()[pri:2, instance:Snapdeal_Product_search.product_search@7c3fdb62] output=Test Started: searchInvalidProduct at  Date and Time : 2025-02-23 22:49:37 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:Snapdeal_Product_search.product_search@7c3fdb62]" started-at="2025-02-23T22:49:41 IST" name="shutDown" finished-at="2025-02-23T22:49:41 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Snapdeal_Product_search.product_search -->
+      <class name="Snapdeal_Footerbanner.Footer_policyinfo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Snapdeal_Footerbanner.Footer_policyinfo@24c22fe]" started-at="2025-02-23T22:47:28 IST" name="setUp" finished-at="2025-02-23T22:47:36 IST" duration-ms="8085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="footer_policyinfo()[pri:1, instance:Snapdeal_Footerbanner.Footer_policyinfo@24c22fe]" started-at="2025-02-23T22:47:36 IST" name="footer_policyinfo" description="Verify the Policyinfo is Displayed" finished-at="2025-02-23T22:47:36 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: footer_policyinfo at  Date and Time : 2025-02-23 22:47:36 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Find the 'Policy info', in Footer]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Footer in 'Policy info' is visible.]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testfooter_policyinfo.png">click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: footer_policyinfo at  Date and Time : 2025-02-23 22:47:36 Duration: 0s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- footer_policyinfo -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Snapdeal_Footerbanner.Footer_policyinfo@24c22fe]" started-at="2025-02-23T22:47:36 IST" name="screenshot" finished-at="2025-02-23T22:47:37 IST" duration-ms="206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=footer_policyinfo status=SUCCESS method=Footer_policyinfo.footer_policyinfo()[pri:1, instance:Snapdeal_Footerbanner.Footer_policyinfo@24c22fe] output=Test Started: footer_policyinfo at  Date and Time : 2025-02-23 22:47:36 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="Footer_policyList()[pri:2, instance:Snapdeal_Footerbanner.Footer_policyinfo@24c22fe]" started-at="2025-02-23T22:47:37 IST" name="Footer_policyList" description="Verify the Policyinfo list are Visible" finished-at="2025-02-23T22:47:38 IST" duration-ms="1410" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: Footer_policyList at  Date and Time : 2025-02-23 22:47:37 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Find the 'Policy info', in Footer]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Footer in 'Policy info' is visible.]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Footer in 'Terms of Sale' is visible.]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Footer in 'Terms of use' is visible.]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Footer in 'Takedown Policy' is visible.]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Footer in 'BIS Standard Policy' is visible.]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Footer in 'Products Under Cumpulsory BIS Certification' is visible.]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Footer in 'FAQ' is visible.]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Footer policy Info List]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testFooter_policyList.png">FooterPolicy_click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: Footer_policyList at  Date and Time : 2025-02-23 22:47:38 Duration: 1s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Footer_policyList -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Snapdeal_Footerbanner.Footer_policyinfo@24c22fe]" started-at="2025-02-23T22:47:38 IST" name="screenshot" finished-at="2025-02-23T22:47:38 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Footer_policyList status=SUCCESS method=Footer_policyinfo.Footer_policyList()[pri:2, instance:Snapdeal_Footerbanner.Footer_policyinfo@24c22fe] output=Test Started: Footer_policyList at  Date and Time : 2025-02-23 22:47:37 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:Snapdeal_Footerbanner.Footer_policyinfo@24c22fe]" started-at="2025-02-23T22:47:38 IST" name="shutDown" finished-at="2025-02-23T22:47:38 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Snapdeal_Footerbanner.Footer_policyinfo -->
+      <class name="Snapdeal_cart.SnapdealCart_Product_remove">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Snapdeal_cart.SnapdealCart_Product_remove@cd1e646]" started-at="2025-02-23T22:47:58 IST" name="setUp" finished-at="2025-02-23T22:48:15 IST" duration-ms="17215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeCart()[pri:0, instance:Snapdeal_cart.SnapdealCart_Product_remove@cd1e646]" started-at="2025-02-23T22:48:15 IST" name="removeCart" description="Verify the remove the Products From the Cart" finished-at="2025-02-23T22:48:43 IST" duration-ms="27656" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //p[@title="HASTEN Dark Grey Men's Lifestyle Shoes"] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\VENKAT~1.BAS\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60724}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60724/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff04ec781c3d994eb3a34d40e9916a16]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[@title="HASTEN Dark Grey Men's Lifestyle Shoes"] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\VENKAT~1.BAS\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60724}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60724/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff04ec781c3d994eb3a34d40e9916a16
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Snapdeal_cart.SnapdealCart_Product_remove.removeCart(SnapdealCart_Product_remove.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: removeCart at  Date and Time : 2025-02-23 22:48:15 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Click the searchbar]]>
+            </line>
+            <line>
+              <![CDATA[Enter the values on the Searchbar (eg,Shoes)]]>
+            </line>
+            <line>
+              <![CDATA[Click the search Icon]]>
+            </line>
+            <line>
+              <![CDATA[Test Failed: removeCart at 2025-02-23 22:48:43 Duration: 27s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeCart -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Snapdeal_cart.SnapdealCart_Product_remove@cd1e646]" started-at="2025-02-23T22:48:43 IST" name="screenshot" finished-at="2025-02-23T22:48:43 IST" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeCart status=FAILURE method=SnapdealCart_Product_remove.removeCart()[pri:0, instance:Snapdeal_cart.SnapdealCart_Product_remove@cd1e646] output=Test Started: removeCart at  Date and Time : 2025-02-23 22:48:15 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:Snapdeal_cart.SnapdealCart_Product_remove@cd1e646]" started-at="2025-02-23T22:48:43 IST" name="shutDown" finished-at="2025-02-23T22:48:43 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Snapdeal_cart.SnapdealCart_Product_remove -->
+      <class name="Snapdeal_cart.SnapdealCart_page">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Snapdeal_cart.SnapdealCart_page@34b9f960]" started-at="2025-02-23T22:47:20 IST" name="setUp" finished-at="2025-02-23T22:47:24 IST" duration-ms="3852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cart_Item()[pri:0, instance:Snapdeal_cart.SnapdealCart_page@34b9f960]" started-at="2025-02-23T22:47:24 IST" name="cart_Item" description="Verify the CartPage are Visible" finished-at="2025-02-23T22:47:27 IST" duration-ms="3504" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed due to unexpected conditions  ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed due to unexpected conditions  
+at org.testng.Assert.fail(Assert.java:99)
+at Snapdeal_cart.SnapdealCart_page.cart_Item(SnapdealCart_page.java:111)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: cart_Item at  Date and Time : 2025-02-23 22:47:24 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Click the searchbar]]>
+            </line>
+            <line>
+              <![CDATA[Enter the values on the Searchbar (eg,fasttrack)]]>
+            </line>
+            <line>
+              <![CDATA[Click the search Icon]]>
+            </line>
+            <line>
+              <![CDATA[Test Failed: cart_Item at 2025-02-23 22:47:27 Duration: 3s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cart_Item -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:Snapdeal_cart.SnapdealCart_page@34b9f960]" started-at="2025-02-23T22:47:27 IST" name="screenshot" finished-at="2025-02-23T22:47:27 IST" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cart_Item status=FAILURE method=SnapdealCart_page.cart_Item()[pri:0, instance:Snapdeal_cart.SnapdealCart_page@34b9f960] output=Test Started: cart_Item at  Date and Time : 2025-02-23 22:47:24 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:Snapdeal_cart.SnapdealCart_page@34b9f960]" started-at="2025-02-23T22:47:27 IST" name="shutDown" finished-at="2025-02-23T22:47:28 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Snapdeal_cart.SnapdealCart_page -->
+      <class name="searchbar_visibility.searchbar_visibility">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:searchbar_visibility.searchbar_visibility@26adfd2d]" started-at="2025-02-23T22:49:15 IST" name="setUp" finished-at="2025-02-23T22:49:22 IST" duration-ms="7219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchbarVisibility()[pri:1, instance:searchbar_visibility.searchbar_visibility@26adfd2d]" started-at="2025-02-23T22:49:22 IST" name="testSearchbarVisibility" description="Verify the SearchBar are Visible" finished-at="2025-02-23T22:49:22 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: testSearchbarVisibility at  Date and Time : 2025-02-23 22:49:22 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  Search Bar Visibility]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testSearchbarVisibility.png">click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: testSearchbarVisibility at  Date and Time : 2025-02-23 22:49:22 Duration: 0s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSearchbarVisibility -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:searchbar_visibility.searchbar_visibility@26adfd2d]" started-at="2025-02-23T22:49:22 IST" name="screenshot" finished-at="2025-02-23T22:49:22 IST" duration-ms="374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchbarVisibility status=SUCCESS method=searchbar_visibility.testSearchbarVisibility()[pri:1, instance:searchbar_visibility.searchbar_visibility@26adfd2d] output=Test Started: testSearchbarVisibility at  Date and Time : 2025-02-23 22:49:22 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="SearchbarClickable()[pri:2, instance:searchbar_visibility.searchbar_visibility@26adfd2d]" started-at="2025-02-23T22:49:22 IST" name="SearchbarClickable" description="Verify the SearchBar are Clickable" finished-at="2025-02-23T22:49:24 IST" duration-ms="2042" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: SearchbarClickable at  Date and Time : 2025-02-23 22:49:22 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Click the searchbar]]>
+            </line>
+            <line>
+              <![CDATA[Click the searchbar and the Enter the Values (eg..fastracks)]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  SearchBar is Clickable]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testSearchbarClickable.png">SearchBar_Click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: SearchbarClickable at  Date and Time : 2025-02-23 22:49:24 Duration: 2s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchbarClickable -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:searchbar_visibility.searchbar_visibility@26adfd2d]" started-at="2025-02-23T22:49:24 IST" name="screenshot" finished-at="2025-02-23T22:49:25 IST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchbarClickable status=SUCCESS method=searchbar_visibility.SearchbarClickable()[pri:2, instance:searchbar_visibility.searchbar_visibility@26adfd2d] output=Test Started: SearchbarClickable at  Date and Time : 2025-02-23 22:49:22 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:searchbar_visibility.searchbar_visibility@26adfd2d]" started-at="2025-02-23T22:49:25 IST" name="shutDown" finished-at="2025-02-23T22:49:25 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- searchbar_visibility.searchbar_visibility -->
+      <class name="products_details.products_detail_page">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:products_details.products_detail_page@93081b6]" started-at="2025-02-23T22:47:38 IST" name="setUp" finished-at="2025-02-23T22:47:42 IST" duration-ms="3399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProduct_details()[pri:1, instance:products_details.products_detail_page@93081b6]" started-at="2025-02-23T22:47:42 IST" name="testProduct_details" description="Verify the Products are Visible" finished-at="2025-02-23T22:47:52 IST" duration-ms="10426" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: testProduct_details at  Date and Time : 2025-02-23 22:47:42 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Click the SearchBar ]]>
+            </line>
+            <line>
+              <![CDATA[Enter the Keywords in the SearchBar ]]>
+            </line>
+            <line>
+              <![CDATA[Click the Search Icon ]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Products are Visible]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProduct_details.png">click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: testProduct_details at  Date and Time : 2025-02-23 22:47:52 Duration: 10s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testProduct_details -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:products_details.products_detail_page@93081b6]" started-at="2025-02-23T22:47:52 IST" name="screenshot" finished-at="2025-02-23T22:47:52 IST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProduct_details status=SUCCESS method=products_detail_page.testProduct_details()[pri:1, instance:products_details.products_detail_page@93081b6] output=Test Started: testProduct_details at  Date and Time : 2025-02-23 22:47:42 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="ProductDetailPage()[pri:2, instance:products_details.products_detail_page@93081b6]" started-at="2025-02-23T22:47:52 IST" name="ProductDetailPage" description="Verify the Products detail page are Visible" finished-at="2025-02-23T22:47:57 IST" duration-ms="4624" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: ProductDetailPage at  Date and Time : 2025-02-23 22:47:52 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Click the SearchBar ]]>
+            </line>
+            <line>
+              <![CDATA[Enter the Keywords in the SearchBar ]]>
+            </line>
+            <line>
+              <![CDATA[Click the Search Icon ]]>
+            </line>
+            <line>
+              <![CDATA[Verify the Products Detail Page]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProductDetailPage.png">ProductDetail_click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: ProductDetailPage at  Date and Time : 2025-02-23 22:47:57 Duration: 4s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProductDetailPage -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:products_details.products_detail_page@93081b6]" started-at="2025-02-23T22:47:57 IST" name="screenshot" finished-at="2025-02-23T22:47:57 IST" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProductDetailPage status=SUCCESS method=products_detail_page.ProductDetailPage()[pri:2, instance:products_details.products_detail_page@93081b6] output=Test Started: ProductDetailPage at  Date and Time : 2025-02-23 22:47:52 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:products_details.products_detail_page@93081b6]" started-at="2025-02-23T22:47:57 IST" name="shutDown" finished-at="2025-02-23T22:47:58 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- products_details.products_detail_page -->
+      <class name="snapdeal_catagories.products_catagories">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:snapdeal_catagories.products_catagories@2bec854f]" started-at="2025-02-23T22:48:58 IST" name="setUp" finished-at="2025-02-23T22:49:04 IST" duration-ms="6501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Product_catagories_Visibility()[pri:1, instance:snapdeal_catagories.products_catagories@2bec854f]" started-at="2025-02-23T22:49:04 IST" name="Product_catagories_Visibility" description="Verify the Category banner are Visible" finished-at="2025-02-23T22:49:04 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: Product_catagories_Visibility at  Date and Time : 2025-02-23 22:49:04 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Find the cartegories Banner]]>
+            </line>
+            <line>
+              <![CDATA[Verify the  'Catagories Banner' is visible]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProduct_catagories_Visibility.png">click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: Product_catagories_Visibility at  Date and Time : 2025-02-23 22:49:04 Duration: 0s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Product_catagories_Visibility -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:snapdeal_catagories.products_catagories@2bec854f]" started-at="2025-02-23T22:49:04 IST" name="screenshot" finished-at="2025-02-23T22:49:04 IST" duration-ms="286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Product_catagories_Visibility status=SUCCESS method=products_catagories.Product_catagories_Visibility()[pri:1, instance:snapdeal_catagories.products_catagories@2bec854f] output=Test Started: Product_catagories_Visibility at  Date and Time : 2025-02-23 22:49:04 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="Catagory_Bags_Luggage()[pri:2, instance:snapdeal_catagories.products_catagories@2bec854f]" started-at="2025-02-23T22:49:04 IST" name="Catagory_Bags_Luggage" description="Verify the Bag &amp; Luggage Category are Visible" finished-at="2025-02-23T22:49:07 IST" duration-ms="2516" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started: Catagory_Bags_Luggage at  Date and Time : 2025-02-23 22:49:04 Duration: 0s]]>
+            </line>
+            <line>
+              <![CDATA[Find the cartegories Banner]]>
+            </line>
+            <line>
+              <![CDATA[categories Banner in Find the Bags & Luggage]]>
+            </line>
+            <line>
+              <![CDATA[Click the 'Bags & Luggage']]>
+            </line>
+            <line>
+              <![CDATA[Verify the  'Backpacks' catagory is clickable.]]>
+            </line>
+            <line>
+              <![CDATA[<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testCatagory_MensFashion_access.png">Categories_Click</a>]]>
+            </line>
+            <line>
+              <![CDATA[Test Passed: Catagory_Bags_Luggage at  Date and Time : 2025-02-23 22:49:07 Duration: 2s]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Catagory_Bags_Luggage -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:snapdeal_catagories.products_catagories@2bec854f]" started-at="2025-02-23T22:49:07 IST" name="screenshot" finished-at="2025-02-23T22:49:07 IST" duration-ms="288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Catagory_Bags_Luggage status=SUCCESS method=products_catagories.Catagory_Bags_Luggage()[pri:2, instance:snapdeal_catagories.products_catagories@2bec854f] output=Test Started: Catagory_Bags_Luggage at  Date and Time : 2025-02-23 22:49:04 Duration: 0s]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:snapdeal_catagories.products_catagories@2bec854f]" started-at="2025-02-23T22:49:07 IST" name="shutDown" finished-at="2025-02-23T22:49:07 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- snapdeal_catagories.products_catagories -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

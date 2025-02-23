@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Snapdeal Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SignIn Tests(failed)">
+    <groups>
+      <run>
+        <include name="signin"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="accountfunctionality.signin_visibility">
+        <methods>
+          <include name="testSignInButtonVisibility"/>
+        </methods>
+      </class> <!-- accountfunctionality.signin_visibility -->
+    </classes>
+  </test> <!-- SignIn Tests(failed) -->
+  <test thread-count="5" name="SignIn Clickable Tests(failed)">
+    <groups>
+      <run>
+        <include name="signinvisible"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="accountfunctionality.signin_visibility">
+        <methods>
+          <include name="testSignInButtonClickable"/>
+        </methods>
+      </class> <!-- accountfunctionality.signin_visibility -->
+    </classes>
+  </test> <!-- SignIn Clickable Tests(failed) -->
+  <test thread-count="5" name="Login Tests(failed)">
+    <groups>
+      <run>
+        <include name="login"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="accountfunctionality.login_button">
+        <methods>
+          <include name="testLoginButtonVisibility"/>
+        </methods>
+      </class> <!-- accountfunctionality.login_button -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+  <test thread-count="5" name="Login Clickable Tests(failed)">
+    <groups>
+      <run>
+        <include name="loginvisible"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="accountfunctionality.login_button">
+        <methods>
+          <include name="testLoginButtonClickable"/>
+        </methods>
+      </class> <!-- accountfunctionality.login_button -->
+    </classes>
+  </test> <!-- Login Clickable Tests(failed) -->
+</suite> <!-- Failed suite [Snapdeal Test Suite] -->

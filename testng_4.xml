@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+ 
+ 
+ 
+ 
+ 
+
+  <!-- Listeners configuration -->
+  <listeners>
+    <listener class-name="customreport.CustomTestListener" />
+    <listener class-name="customreport.CustomTestReporter" />
+    <listener class-name="defaultemail.defaultemailreport" />
+  </listeners>
+
+  <!-- Test configuration -->
+  <test thread-count="5" name="Test">
+  
+	
+  
+
+ 
+  
+  
+ 
+  
+  
+    <classes>
+      <class name="Snapdeal_cart.SnapdealCart_page" />
+      <class name="Snapdeal_Footerbanner.Footer_policyinfo" />
+      <class name="products_details.products_detail_page" />
+      <class name="Snapdeal_cart.SnapdealCart_Product_remove" />
+      <class name="Snapdeal_login.Snapdeal_logo" />
+      <class name="Snapdeal_login.Snapdeal_login" />
+      <class name="snapdeal_catagories.products_catagories" />
+      <class name="products_visible.products_visibility" />
+      <class name="searchbar_visibility.searchbar_visibility" />
+      <class name="accountfunctionality.signin_visibility" />
+      <class name="Snapdeal_Product_search.product_search" />
+      <class name="accountfunctionality.login_button" />
+      <class name="Snapdeal_login.Snapdeal_rigister" />
+    </classes>
+  </test>
+
+</suite>

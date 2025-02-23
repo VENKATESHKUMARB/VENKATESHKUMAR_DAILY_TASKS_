@@ -1,0 +1,159 @@
+package searchbar_visibility;
+
+import java.io.File;
+import java.io.IOException;
+import java.time.Duration;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.Assert;
+import org.testng.ITestResult;
+import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+//import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+
+
+public class searchbar_visibility {
+
+    WebDriver driver;
+    
+    private static final Logger logger = LoggerFactory.getLogger(searchbar_visibility.class);
+
+    @BeforeClass(groups= {"searchbarclick"})
+    public void setUp() {
+  
+        System.setProperty("webdriver.chrome.driver", "./snapdealdriver/chromedriver.exe"); // Update this path
+
+  
+        driver = new ChromeDriver();
+
+        driver.manage().window().maximize();
+
+   
+        driver.get("https://www.snapdeal.com");
+    }
+
+    @Test(priority = 1,groups= {"searchbarvisible"},description="Verify the SearchBar are Visible")
+    public void testSearchbarVisibility() {
+        try {
+            //search bar to be visible
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+
+            
+            WebElement searchBar = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.id("inputValEnter")));
+
+       
+            Assert.assertTrue(searchBar.isDisplayed(), "The search bar is not visible on the website.");
+
+    
+            System.out.println("Test passed: Search bar is visible.");
+            
+            logger.info("Testcase is Passed");
+            
+        } 
+        
+       
+        
+        catch (Exception e) {
+         
+        	logger.error("Test failed due to exception: " + e.getClass().getSimpleName());
+            Assert.fail("Test failed due to exception: ");
+        }
+        
+        
+Reporter.log("Verify the  Search Bar Visibility");
+        
+        Reporter.log("<a href= \"C:\\Users\\venkatesh.baskaran\\eclipse-workspace\\snapdeal_app\\Screenshots\\testSearchbarVisibility.png\">click</a>");
+        
+    }
+
+    @Test(priority = 2,groups= {"searchbarclick"},description="Verify the SearchBar are Clickable")
+    public void SearchbarClickable() {
+        try {
+          
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+
+       
+            WebElement searchBar = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.id("inputValEnter")));
+            
+            Reporter.log("Click the searchbar",true);
+
+            // Click the search bar
+            searchBar.click();
+
+            
+            searchBar.sendKeys("fastrack");
+            
+            Reporter.log("Click the searchbar and the Enter the Values (eg..fastracks)",true);
+            //Press the Enter Key
+            searchBar.sendKeys(Keys.RETURN);
+
+
+            System.out.println("Test passed: Search bar is clickable and search performed successfully.");
+            logger.info("Testcase is Passed");
+            
+        } 
+        
+        
+        // Log for the exception in searchbar_clickable and fail the test
+        
+        catch (Exception e) {
+       
+        	logger.error("Test failed due to exception: " + e.getClass().getSimpleName());
+            Assert.fail("Test failed due to exception: ");
+        }
+        
+        
+        Reporter.log("Verify the  SearchBar is Clickable",true);
+        
+        Reporter.log("<a href= \"C:\\Users\\venkatesh.baskaran\\eclipse-workspace\\snapdeal_app\\Screenshots\\testSearchbarClickable.png\">SearchBar_Click</a>");
+        
+    }
+    
+    
+//  ScreenShots
+    
+  @AfterMethod
+  public void screenshot(ITestResult result) throws IOException {
+  
+      TakesScreenshot ts = (TakesScreenshot) driver;
+      File sourceFile = ts.getScreenshotAs(OutputType.FILE);
+
+ 
+      String methodName = result.getMethod().getMethodName();
+      File destinyFile = new File("./Screenshots/" + methodName + ".png");
+
+    
+      FileUtils.copyFile(sourceFile, destinyFile);
+      
+  }
+    
+    
+    
+    
+    // Close the browser after the test
+
+    @AfterClass
+    public void shutDown() {
+
+        
+            driver.quit();
+        
+    }
+}

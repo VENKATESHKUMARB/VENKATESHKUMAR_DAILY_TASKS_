@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\testng_4.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>14 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 2 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Snapdeal_cart.SnapdealCart_page" class="method navigator-link" hash-for-method="cart_Item">cart_Item</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Snapdeal_cart.SnapdealCart_Product_remove" class="method navigator-link" hash-for-method="removeCart">removeCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="snapdeal_catagories.products_catagories" class="method navigator-link" hash-for-method="Catagory_Bags_Luggage">Catagory_Bags_Luggage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Snapdeal_Footerbanner.Footer_policyinfo" class="method navigator-link" hash-for-method="Footer_policyList">Footer_policyList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Snapdeal_login.Snapdeal_login" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="accountfunctionality.login_button" class="method navigator-link" hash-for-method="LoginButtonClickable">LoginButtonClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="accountfunctionality.login_button" class="method navigator-link" hash-for-method="LoginButtonVisibility">LoginButtonVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Snapdeal_login.Snapdeal_logo" class="method navigator-link" hash-for-method="LogoVisibility">LogoVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="products_details.products_detail_page" class="method navigator-link" hash-for-method="ProductDetailPage">ProductDetailPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="snapdeal_catagories.products_catagories" class="method navigator-link" hash-for-method="Product_catagories_Visibility">Product_catagories_Visibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Snapdeal_login.Snapdeal_rigister" class="method navigator-link" hash-for-method="RegisterWithEmptyEmailField">RegisterWithEmptyEmailField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="products_visible.products_visibility" class="method navigator-link" hash-for-method="SearchAndProductVisibility">SearchAndProductVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="searchbar_visibility.searchbar_visibility" class="method navigator-link" hash-for-method="SearchbarClickable">SearchbarClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="accountfunctionality.signin_visibility" class="method navigator-link" hash-for-method="SignInButtonClickable">SignInButtonClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="accountfunctionality.signin_visibility" class="method navigator-link" hash-for-method="SignInButtonVisibility">SignInButtonVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Snapdeal_Footerbanner.Footer_policyinfo" class="method navigator-link" hash-for-method="footer_policyinfo">footer_policyinfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Snapdeal_Product_search.product_search" class="method navigator-link" hash-for-method="searchInvalidProduct">searchInvalidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Snapdeal_Product_search.product_search" class="method navigator-link" hash-for-method="searchValidProduct">searchValidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="products_details.products_detail_page" class="method navigator-link" hash-for-method="testProduct_details">testProduct_details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="searchbar_visibility.searchbar_visibility" class="method navigator-link" hash-for-method="testSearchbarVisibility">testSearchbarVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Snapdeal_cart.SnapdealCart_Product_remove</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeCart">
+                  </a> <!-- removeCart -->
+                  <span class="method-name">removeCart</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[@title=&quot;HASTEN Dark Grey Men&apos;s Lifestyle Shoes&quot;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\VENKAT~1.BAS\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60724}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60724/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff04ec781c3d994eb3a34d40e9916a16
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Snapdeal_cart.SnapdealCart_Product_remove.removeCart(SnapdealCart_Product_remove.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the remove the Products From the Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Snapdeal_cart.SnapdealCart_page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cart_Item">
+                  </a> <!-- cart_Item -->
+                  <span class="method-name">cart_Item</span>
+                  <div class="stack-trace">java.lang.AssertionError: Test failed due to unexpected conditions  
+	at Snapdeal_cart.SnapdealCart_page.cart_Item(SnapdealCart_page.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify the CartPage are Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Snapdeal_login.Snapdeal_logo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogoVisibility">
+                  </a> <!-- LogoVisibility -->
+                  <span class="method-name">LogoVisibility</span>
+                  <em>
+(Verify the Brand Logo's are Displayed )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">accountfunctionality.login_button</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginButtonClickable">
+                  </a> <!-- LoginButtonClickable -->
+                  <span class="method-name">LoginButtonClickable</span>
+                  <em>
+(Verify the login Button is Clickable)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginButtonVisibility">
+                  </a> <!-- LoginButtonVisibility -->
+                  <span class="method-name">LoginButtonVisibility</span>
+                  <em>
+(Verify the login Button is Visible )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">snapdeal_catagories.products_catagories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Catagory_Bags_Luggage">
+                  </a> <!-- Catagory_Bags_Luggage -->
+                  <span class="method-name">Catagory_Bags_Luggage</span>
+                  <em>
+(Verify the Bag & Luggage Category are Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Product_catagories_Visibility">
+                  </a> <!-- Product_catagories_Visibility -->
+                  <span class="method-name">Product_catagories_Visibility</span>
+                  <em>
+(Verify the Category banner are Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Snapdeal_login.Snapdeal_login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                  <em>
+(Verify the Login Functionality )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">products_visible.products_visibility</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchAndProductVisibility">
+                  </a> <!-- SearchAndProductVisibility -->
+                  <span class="method-name">SearchAndProductVisibility</span>
+                  <em>
+(Verify the Products are Visibility)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Snapdeal_login.Snapdeal_rigister</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterWithEmptyEmailField">
+                  </a> <!-- RegisterWithEmptyEmailField -->
+                  <span class="method-name">RegisterWithEmptyEmailField</span>
+                  <em>
+(Verify the Register Functionality )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Snapdeal_Product_search.product_search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchInvalidProduct">
+                  </a> <!-- searchInvalidProduct -->
+                  <span class="method-name">searchInvalidProduct</span>
+                  <em>
+(Verify the Invalid product Banner are Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchValidProduct">
+                  </a> <!-- searchValidProduct -->
+                  <span class="method-name">searchValidProduct</span>
+                  <em>
+(Verify the valid Products List are Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">accountfunctionality.signin_visibility</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignInButtonClickable">
+                  </a> <!-- SignInButtonClickable -->
+                  <span class="method-name">SignInButtonClickable</span>
+                  <em>
+(Verify the Signin Button is Clickable)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignInButtonVisibility">
+                  </a> <!-- SignInButtonVisibility -->
+                  <span class="method-name">SignInButtonVisibility</span>
+                  <em>
+(Verify the SignIn Button is Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Snapdeal_Footerbanner.Footer_policyinfo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Footer_policyList">
+                  </a> <!-- Footer_policyList -->
+                  <span class="method-name">Footer_policyList</span>
+                  <em>
+(Verify the Policyinfo list are Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="footer_policyinfo">
+                  </a> <!-- footer_policyinfo -->
+                  <span class="method-name">footer_policyinfo</span>
+                  <em>
+(Verify the Policyinfo is Displayed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">searchbar_visibility.searchbar_visibility</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchbarClickable">
+                  </a> <!-- SearchbarClickable -->
+                  <span class="method-name">SearchbarClickable</span>
+                  <em>
+(Verify the SearchBar are Clickable)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchbarVisibility">
+                  </a> <!-- testSearchbarVisibility -->
+                  <span class="method-name">testSearchbarVisibility</span>
+                  <em>
+(Verify the SearchBar are Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">products_details.products_detail_page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProductDetailPage">
+                  </a> <!-- ProductDetailPage -->
+                  <span class="method-name">ProductDetailPage</span>
+                  <em>
+(Verify the Products detail page are Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProduct_details">
+                  </a> <!-- testProduct_details -->
+                  <span class="method-name">testProduct_details</span>
+                  <em>
+(Verify the Products are Visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\testng_4.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;customreport.CustomTestListener&quot;/&gt;
+    &lt;listener class-name=&quot;customreport.CustomTestReporter&quot;/&gt;
+    &lt;listener class-name=&quot;defaultemail.defaultemailreport&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Snapdeal_cart.SnapdealCart_page&quot;/&gt;
+      &lt;class name=&quot;Snapdeal_Footerbanner.Footer_policyinfo&quot;/&gt;
+      &lt;class name=&quot;products_details.products_detail_page&quot;/&gt;
+      &lt;class name=&quot;Snapdeal_cart.SnapdealCart_Product_remove&quot;/&gt;
+      &lt;class name=&quot;Snapdeal_login.Snapdeal_logo&quot;/&gt;
+      &lt;class name=&quot;Snapdeal_login.Snapdeal_login&quot;/&gt;
+      &lt;class name=&quot;snapdeal_catagories.products_catagories&quot;/&gt;
+      &lt;class name=&quot;products_visible.products_visibility&quot;/&gt;
+      &lt;class name=&quot;searchbar_visibility.searchbar_visibility&quot;/&gt;
+      &lt;class name=&quot;accountfunctionality.signin_visibility&quot;/&gt;
+      &lt;class name=&quot;Snapdeal_Product_search.product_search&quot;/&gt;
+      &lt;class name=&quot;accountfunctionality.login_button&quot;/&gt;
+      &lt;class name=&quot;Snapdeal_login.Snapdeal_rigister&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Policyinfo</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Footer_policyList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">footer_policyinfo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">cartpage</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">cart_Item</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">catagories</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Catagory_Bags_Luggage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Product_catagories_Visibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">functional_login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginButtonClickable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginButtonVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">logo</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">LogoVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">product_remove</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">productsdisplay</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ProductDetailPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testProduct_details</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">productsearch</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchInvalidProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchValidProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">register</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">RegisterWithEmptyEmailField</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">search_productvisibility</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">SearchAndProductVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">searchbarclick</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">SearchbarClickable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">searchbarvisible</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSearchbarVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">signin</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">SignInButtonClickable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SignInButtonVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'removeCart')
+data.setCell(0, 2, 'Snapdeal_cart.SnapdealCart_Product_remove')
+data.setCell(0, 3, 27656);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testProduct_details')
+data.setCell(1, 2, 'products_details.products_detail_page')
+data.setCell(1, 3, 10426);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginButtonClickable')
+data.setCell(2, 2, 'accountfunctionality.login_button')
+data.setCell(2, 3, 5463);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchValidProduct')
+data.setCell(3, 2, 'Snapdeal_Product_search.product_search')
+data.setCell(3, 3, 5069);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ProductDetailPage')
+data.setCell(4, 2, 'products_details.products_detail_page')
+data.setCell(4, 3, 4624);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchInvalidProduct')
+data.setCell(5, 2, 'Snapdeal_Product_search.product_search')
+data.setCell(5, 3, 3889);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'cart_Item')
+data.setCell(6, 2, 'Snapdeal_cart.SnapdealCart_page')
+data.setCell(6, 3, 3504);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Login')
+data.setCell(7, 2, 'Snapdeal_login.Snapdeal_login')
+data.setCell(7, 3, 2725);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Catagory_Bags_Luggage')
+data.setCell(8, 2, 'snapdeal_catagories.products_catagories')
+data.setCell(8, 3, 2516);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'SearchAndProductVisibility')
+data.setCell(9, 2, 'products_visible.products_visibility')
+data.setCell(9, 3, 2457);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'SearchbarClickable')
+data.setCell(10, 2, 'searchbar_visibility.searchbar_visibility')
+data.setCell(10, 3, 2042);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'RegisterWithEmptyEmailField')
+data.setCell(11, 2, 'Snapdeal_login.Snapdeal_rigister')
+data.setCell(11, 3, 1882);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Footer_policyList')
+data.setCell(12, 2, 'Snapdeal_Footerbanner.Footer_policyinfo')
+data.setCell(12, 3, 1410);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'footer_policyinfo')
+data.setCell(13, 2, 'Snapdeal_Footerbanner.Footer_policyinfo')
+data.setCell(13, 3, 597);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'LoginButtonVisibility')
+data.setCell(14, 2, 'accountfunctionality.login_button')
+data.setCell(14, 3, 460);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'SignInButtonClickable')
+data.setCell(15, 2, 'accountfunctionality.signin_visibility')
+data.setCell(15, 3, 350);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testSearchbarVisibility')
+data.setCell(16, 2, 'searchbar_visibility.searchbar_visibility')
+data.setCell(16, 3, 131);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'SignInButtonVisibility')
+data.setCell(17, 2, 'accountfunctionality.signin_visibility')
+data.setCell(17, 3, 116);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'LogoVisibility')
+data.setCell(18, 2, 'Snapdeal_login.Snapdeal_logo')
+data.setCell(18, 3, 75);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Product_catagories_Visibility')
+data.setCell(19, 2, 'snapdeal_catagories.products_catagories')
+data.setCell(19, 3, 43);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ProductDetailPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: ProductDetailPage at  Date and Time : 2025-02-23 22:47:52 Duration: 0s</span>
+                <span class="reporter-method-output">Click the SearchBar </span>
+                <span class="reporter-method-output">Enter the Keywords in the SearchBar </span>
+                <span class="reporter-method-output">Click the Search Icon </span>
+                <span class="reporter-method-output">Verify the Products Detail Page</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProductDetailPage.png">ProductDetail_click</a></span>
+                <span class="reporter-method-output">Test Passed: ProductDetailPage at  Date and Time : 2025-02-23 22:47:57 Duration: 4s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchbarClickable</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: SearchbarClickable at  Date and Time : 2025-02-23 22:49:22 Duration: 0s</span>
+                <span class="reporter-method-output">Click the searchbar</span>
+                <span class="reporter-method-output">Click the searchbar and the Enter the Values (eg..fastracks)</span>
+                <span class="reporter-method-output">Verify the  SearchBar is Clickable</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testSearchbarClickable.png">SearchBar_Click</a></span>
+                <span class="reporter-method-output">Test Passed: SearchbarClickable at  Date and Time : 2025-02-23 22:49:24 Duration: 2s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginButtonVisibility</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: LoginButtonVisibility at  Date and Time : 2025-02-23 22:49:46 Duration: 0s</span>
+                <span class="reporter-method-output">Verify the SignIn is  Hover</span>
+                <span class="reporter-method-output">Verify the login Button is Visible</span>
+                <span class="reporter-method-output"><a href='null'>Screenshot</a></span>
+                <span class="reporter-method-output">Test Passed: LoginButtonVisibility at  Date and Time : 2025-02-23 22:49:46 Duration: 0s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">RegisterWithEmptyEmailField</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: RegisterWithEmptyEmailField at  Date and Time : 2025-02-23 22:49:56 Duration: 0s</span>
+                <span class="reporter-method-output">Hover on the 'Sign In' button </span>
+                <span class="reporter-method-output">Click on the 'Register' button </span>
+                <span class="reporter-method-output">Click on the 'mobileNumberField' enter the Mobile Number </span>
+                <span class="reporter-method-output">Click on the 'Continue' button </span>
+                <span class="reporter-method-output">Click on the 'emailField' empty space </span>
+                <span class="reporter-method-output">Click on the 'nameField' enter the enter the Name </span>
+                <span class="reporter-method-output">Click on the 'passwordField' enter the enter the Password </span>
+                <span class="reporter-method-output">Click on the 'Continue' button </span>
+                <span class="reporter-method-output">Verify the Error message for empty email field is empty</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testRegisterWithEmptyEmailField.png">Register_Click</a></span>
+                <span class="reporter-method-output">Test Passed: RegisterWithEmptyEmailField at  Date and Time : 2025-02-23 22:49:58 Duration: 1s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginButtonClickable</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: LoginButtonClickable at  Date and Time : 2025-02-23 22:49:47 Duration: 0s</span>
+                <span class="reporter-method-output">Verify the SignIn is Hover</span>
+                <span class="reporter-method-output">Verify the login Button is Clickable</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testLoginButtonClickable.png">Login_button_Click</a></span>
+                <span class="reporter-method-output">Test Passed: LoginButtonClickable at  Date and Time : 2025-02-23 22:49:52 Duration: 5s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignInButtonVisibility</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: SignInButtonVisibility at  Date and Time : 2025-02-23 22:49:28 Duration: 0s</span>
+                <span class="reporter-method-output">Verify the SignIn  is Hover</span>
+                <span class="reporter-method-output">Verify the Register  is Visible</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\SignInButtonVisibility.png">SignIn_Visible_Click</a></span>
+                <span class="reporter-method-output">Test Passed: SignInButtonVisibility at  Date and Time : 2025-02-23 22:49:28 Duration: 0s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchbarVisibility</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: testSearchbarVisibility at  Date and Time : 2025-02-23 22:49:22 Duration: 0s</span>
+                <span class="reporter-method-output">Verify the  Search Bar Visibility</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testSearchbarVisibility.png">click</a></span>
+                <span class="reporter-method-output">Test Passed: testSearchbarVisibility at  Date and Time : 2025-02-23 22:49:22 Duration: 0s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Product_catagories_Visibility</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: Product_catagories_Visibility at  Date and Time : 2025-02-23 22:49:04 Duration: 0s</span>
+                <span class="reporter-method-output">Find the cartegories Banner</span>
+                <span class="reporter-method-output">Verify the  'Catagories Banner' is visible</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProduct_catagories_Visibility.png">click</a></span>
+                <span class="reporter-method-output">Test Passed: Product_catagories_Visibility at  Date and Time : 2025-02-23 22:49:04 Duration: 0s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testProduct_details</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: testProduct_details at  Date and Time : 2025-02-23 22:47:42 Duration: 0s</span>
+                <span class="reporter-method-output">Click the SearchBar </span>
+                <span class="reporter-method-output">Enter the Keywords in the SearchBar </span>
+                <span class="reporter-method-output">Click the Search Icon </span>
+                <span class="reporter-method-output">Verify the Products are Visible</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProduct_details.png">click</a></span>
+                <span class="reporter-method-output">Test Passed: testProduct_details at  Date and Time : 2025-02-23 22:47:52 Duration: 10s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">footer_policyinfo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: footer_policyinfo at  Date and Time : 2025-02-23 22:47:36 Duration: 0s</span>
+                <span class="reporter-method-output">Find the 'Policy info', in Footer</span>
+                <span class="reporter-method-output">Verify the  Footer in 'Policy info' is visible.</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testfooter_policyinfo.png">click</a></span>
+                <span class="reporter-method-output">Test Passed: footer_policyinfo at  Date and Time : 2025-02-23 22:47:36 Duration: 0s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: Login at  Date and Time : 2025-02-23 22:48:54 Duration: 0s</span>
+                <span class="reporter-method-output">Hover over the 'Sign In' button </span>
+                <span class="reporter-method-output">Click  the 'Login' button </span>
+                <span class="reporter-method-output">Click  the 'usernameField' enter the values </span>
+                <span class="reporter-method-output">Click  the 'Continue' button </span>
+                <span class="reporter-method-output">Click  the 'otpField' enter the values </span>
+                <span class="reporter-method-output">Verify the  Login page is displayed.</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\test_Login.png">Login_Click</a></span>
+                <span class="reporter-method-output">Test Passed: Login at  Date and Time : 2025-02-23 22:48:57 Duration: 2s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Catagory_Bags_Luggage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: Catagory_Bags_Luggage at  Date and Time : 2025-02-23 22:49:04 Duration: 0s</span>
+                <span class="reporter-method-output">Find the cartegories Banner</span>
+                <span class="reporter-method-output">categories Banner in Find the Bags & Luggage</span>
+                <span class="reporter-method-output">Click the 'Bags & Luggage'</span>
+                <span class="reporter-method-output">Verify the  'Backpacks' catagory is clickable.</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testCatagory_MensFashion_access.png">Categories_Click</a></span>
+                <span class="reporter-method-output">Test Passed: Catagory_Bags_Luggage at  Date and Time : 2025-02-23 22:49:07 Duration: 2s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LogoVisibility</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: LogoVisibility at  Date and Time : 2025-02-23 22:48:47 Duration: 0s</span>
+                <span class="reporter-method-output">Verify the  Snapdeal_brand Logo's are displayed.</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testLogoVisibility.png">SnapdealLogo_Click</a></span>
+                <span class="reporter-method-output">Test Passed: LogoVisibility at  Date and Time : 2025-02-23 22:48:47 Duration: 0s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Footer_policyList</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: Footer_policyList at  Date and Time : 2025-02-23 22:47:37 Duration: 0s</span>
+                <span class="reporter-method-output">Find the 'Policy info', in Footer</span>
+                <span class="reporter-method-output">Verify the  Footer in 'Policy info' is visible.</span>
+                <span class="reporter-method-output">Verify the  Footer in 'Terms of Sale' is visible.</span>
+                <span class="reporter-method-output">Verify the  Footer in 'Terms of use' is visible.</span>
+                <span class="reporter-method-output">Verify the  Footer in 'Takedown Policy' is visible.</span>
+                <span class="reporter-method-output">Verify the  Footer in 'BIS Standard Policy' is visible.</span>
+                <span class="reporter-method-output">Verify the  Footer in 'Products Under Cumpulsory BIS Certification' is visible.</span>
+                <span class="reporter-method-output">Verify the  Footer in 'FAQ' is visible.</span>
+                <span class="reporter-method-output">Verify the  Footer policy Info List</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testFooter_policyList.png">FooterPolicy_click</a></span>
+                <span class="reporter-method-output">Test Passed: Footer_policyList at  Date and Time : 2025-02-23 22:47:38 Duration: 1s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchInvalidProduct</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: searchInvalidProduct at  Date and Time : 2025-02-23 22:49:37 Duration: 0s</span>
+                <span class="reporter-method-output">Entered product name 'xhgr' into search bar.</span>
+                <span class="reporter-method-output">Clicked on search icon</span>
+                <span class="reporter-method-output">Verify the  Valid product search results are displayed.</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\searchInvalidProduct.png">ProductSearch_Click</a></span>
+                <span class="reporter-method-output">Test Passed: searchInvalidProduct at  Date and Time : 2025-02-23 22:49:41 Duration: 3s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchAndProductVisibility</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: SearchAndProductVisibility at  Date and Time : 2025-02-23 22:49:12 Duration: 0s</span>
+                <span class="reporter-method-output">click on the search Box </span>
+                <span class="reporter-method-output">Enter the Keywords to find the products </span>
+                <span class="reporter-method-output">Verify the Products Serach & Products Visibility</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testSearchAndProductVisibility.png">Products_visibilityclick</a></span>
+                <span class="reporter-method-output">Test Passed: SearchAndProductVisibility at  Date and Time : 2025-02-23 22:49:14 Duration: 2s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignInButtonClickable</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: SignInButtonClickable at  Date and Time : 2025-02-23 22:49:29 Duration: 0s</span>
+                <span class="reporter-method-output">Verify the SignIn  is Hover</span>
+                <span class="reporter-method-output">Verify the Register  is Clickable</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\SignInButtonClickable.png">SignIn_Click</a></span>
+                <span class="reporter-method-output">Test Passed: SignInButtonClickable at  Date and Time : 2025-02-23 22:49:29 Duration: 0s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchValidProduct</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: searchValidProduct at  Date and Time : 2025-02-23 22:49:31 Duration: 0s</span>
+                <span class="reporter-method-output">Clicked on search bar</span>
+                <span class="reporter-method-output">Entered product name 'shoes' into search bar.</span>
+                <span class="reporter-method-output">Clicked on search bar icon</span>
+                <span class="reporter-method-output">Verify the  Valid product search results are displayed.</span>
+                <span class="reporter-method-output"><a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\searchValidProduct.png">click</a></span>
+                <span class="reporter-method-output">Test Passed: searchValidProduct at  Date and Time : 2025-02-23 22:49:36 Duration: 5s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">cart_Item</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: cart_Item at  Date and Time : 2025-02-23 22:47:24 Duration: 0s</span>
+                <span class="reporter-method-output">Click the searchbar</span>
+                <span class="reporter-method-output">Enter the values on the Searchbar (eg,fasttrack)</span>
+                <span class="reporter-method-output">Click the search Icon</span>
+                <span class="reporter-method-output">Test Failed: cart_Item at 2025-02-23 22:47:27 Duration: 3s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">removeCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started: removeCart at  Date and Time : 2025-02-23 22:48:15 Duration: 0s</span>
+                <span class="reporter-method-output">Click the searchbar</span>
+                <span class="reporter-method-output">Enter the values on the Searchbar (eg,Shoes)</span>
+                <span class="reporter-method-output">Click the search Icon</span>
+                <span class="reporter-method-output">Test Failed: removeCart at 2025-02-23 22:48:43 Duration: 27s</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Snapdeal_cart.SnapdealCart_page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cart_Item</span>
+                <span class="method-start">3863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=cart_Item status=FAILURE method=SnapdealCart_page.cart_Item()[pri:0, instance:Snapd...)</span>
+                <span class="method-start">7375 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">7630 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Snapdeal_Footerbanner.Footer_policyinfo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7913 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">footer_policyinfo</span>
+                <span class="method-start">15998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=footer_policyinfo status=SUCCESS method=Footer_policyinfo.footer_policyinfo()[pri:1...)</span>
+                <span class="method-start">16597 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Footer_policyList</span>
+                <span class="method-start">16803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=Footer_policyList status=SUCCESS method=Footer_policyinfo.Footer_policyList()[pri:2...)</span>
+                <span class="method-start">18216 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">18409 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">products_details.products_detail_page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18653 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testProduct_details</span>
+                <span class="method-start">22053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testProduct_details status=SUCCESS method=products_detail_page.testProduct_details(...)</span>
+                <span class="method-start">32482 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ProductDetailPage</span>
+                <span class="method-start">32679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=ProductDetailPage status=SUCCESS method=products_detail_page.ProductDetailPage()[pr...)</span>
+                <span class="method-start">37305 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">37533 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Snapdeal_cart.SnapdealCart_Product_remove</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37930 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">removeCart</span>
+                <span class="method-start">55146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=removeCart status=FAILURE method=SnapdealCart_Product_remove.removeCart()[pri:0, in...)</span>
+                <span class="method-start">82806 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">82978 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Snapdeal_login.Snapdeal_logo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">83216 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LogoVisibility</span>
+                <span class="method-start">86900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=LogoVisibility status=SUCCESS method=Snapdeal_logo.LogoVisibility()[pri:0, instance...)</span>
+                <span class="method-start">86977 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">87343 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Snapdeal_login.Snapdeal_login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">87666 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">94468 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=Login status=SUCCESS method=Snapdeal_login.Login()[pri:0, instance:Snapdeal_login.S...)</span>
+                <span class="method-start">97195 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">97350 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">snapdeal_catagories.products_catagories</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">97771 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Product_catagories_Visibility</span>
+                <span class="method-start">104272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=Product_catagories_Visibility status=SUCCESS method=products_catagories.Product_cat...)</span>
+                <span class="method-start">104317 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Catagory_Bags_Luggage</span>
+                <span class="method-start">104604 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=Catagory_Bags_Luggage status=SUCCESS method=products_catagories.Catagory_Bags_Lugga...)</span>
+                <span class="method-start">107123 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">107411 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">products_visible.products_visibility</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">107699 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SearchAndProductVisibility</span>
+                <span class="method-start">111801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=SearchAndProductVisibility status=SUCCESS method=products_visibility.SearchAndProdu...)</span>
+                <span class="method-start">114262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">114516 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">searchbar_visibility.searchbar_visibility</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">114804 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSearchbarVisibility</span>
+                <span class="method-start">122024 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=testSearchbarVisibility status=SUCCESS method=searchbar_visibility.testSearchbarVis...)</span>
+                <span class="method-start">122168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SearchbarClickable</span>
+                <span class="method-start">122542 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=SearchbarClickable status=SUCCESS method=searchbar_visibility.SearchbarClickable()[...)</span>
+                <span class="method-start">124587 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">124797 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">accountfunctionality.signin_visibility</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">125013 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SignInButtonVisibility</span>
+                <span class="method-start">128445 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=SignInButtonVisibility status=SUCCESS method=signin_visibility.SignInButtonVisibili...)</span>
+                <span class="method-start">128567 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SignInButtonClickable</span>
+                <span class="method-start">128949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=SignInButtonClickable status=SUCCESS method=signin_visibility.SignInButtonClickable...)</span>
+                <span class="method-start">129300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">129593 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Snapdeal_Product_search.product_search</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">129877 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchValidProduct</span>
+                <span class="method-start">131614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=searchValidProduct status=SUCCESS method=product_search.searchValidProduct()[pri:1,...)</span>
+                <span class="method-start">136685 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchInvalidProduct</span>
+                <span class="method-start">136893 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=searchInvalidProduct status=SUCCESS method=product_search.searchInvalidProduct()[pr...)</span>
+                <span class="method-start">140784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">141065 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">accountfunctionality.login_button</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">141298 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LoginButtonVisibility</span>
+                <span class="method-start">145994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=LoginButtonVisibility status=SUCCESS method=login_button.LoginButtonVisibility()[pr...)</span>
+                <span class="method-start">146458 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginButtonClickable</span>
+                <span class="method-start">146771 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=LoginButtonClickable status=SUCCESS method=login_button.LoginButtonClickable()[pri:...)</span>
+                <span class="method-start">152237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">152389 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Snapdeal_login.Snapdeal_rigister</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">152635 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">RegisterWithEmptyEmailField</span>
+                <span class="method-start">156524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=RegisterWithEmptyEmailField status=SUCCESS method=Snapdeal_rigister.RegisterWithEmp...)</span>
+                <span class="method-start">158410 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">158599 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

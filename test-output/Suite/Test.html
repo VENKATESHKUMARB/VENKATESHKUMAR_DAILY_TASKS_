@@ -1,0 +1,513 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Feb 23 22:47:20 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>158 seconds (158913 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Snapdeal_cart.SnapdealCart_page.cart_Item()'><b>cart_Item</b><br>Test class: Snapdeal_cart.SnapdealCart_page<br>Test method: Verify the CartPage are Visible<br/>
+<a href="#Output-764358458" onClick='toggleBox("Output-764358458", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-764358458" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-764358458">
+Test Started: cart_Item at  Date and Time : 2025-02-23 22:47:24 Duration: 0s<br/>
+Click the searchbar<br/>
+Enter the values on the Searchbar (eg,fasttrack)<br/>
+Click the search Icon<br/>
+Test Failed: cart_Item at 2025-02-23 22:47:27 Duration: 3s<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Test failed due to unexpected conditions  
+	at Snapdeal_cart.SnapdealCart_page.cart_Item(SnapdealCart_page.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace764358458", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace764358458'><pre>java.lang.AssertionError: Test failed due to unexpected conditions  
+	at org.testng.Assert.fail(Assert.java:99)
+	at Snapdeal_cart.SnapdealCart_page.cart_Item(SnapdealCart_page.java:111)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>3</td>
+<td>Snapdeal_cart.SnapdealCart_page@34b9f960</td></tr>
+<tr>
+<td title='Snapdeal_cart.SnapdealCart_Product_remove.removeCart()'><b>removeCart</b><br>Test class: Snapdeal_cart.SnapdealCart_Product_remove<br>Test method: Verify the remove the Products From the Cart<br/>
+<a href="#Output-924915581" onClick='toggleBox("Output-924915581", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-924915581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-924915581">
+Test Started: removeCart at  Date and Time : 2025-02-23 22:48:15 Duration: 0s<br/>
+Click the searchbar<br/>
+Enter the values on the Searchbar (eg,Shoes)<br/>
+Click the search Icon<br/>
+Test Failed: removeCart at 2025-02-23 22:48:43 Duration: 27s<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[@title=&quot;HASTEN Dark Grey Men&apos;s Lifestyle Shoes&quot;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\VENKAT~1.BAS\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60724}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60724/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff04ec781c3d994eb3a34d40e9916a16
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Snapdeal_cart.SnapdealCart_Product_remove.removeCart(SnapdealCart_Product_remove.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace924915581", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace924915581'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[@title=&quot;HASTEN Dark Grey Men&apos;s Lifestyle Shoes&quot;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: C:\Users\VENKAT~1.BAS\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60724}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60724/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff04ec781c3d994eb3a34d40e9916a16
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Snapdeal_cart.SnapdealCart_Product_remove.removeCart(SnapdealCart_Product_remove.java:71)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>27</td>
+<td>Snapdeal_cart.SnapdealCart_Product_remove@cd1e646</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='products_details.products_detail_page.ProductDetailPage()'><b>ProductDetailPage</b><br>Test class: products_details.products_detail_page<br>Test method: Verify the Products detail page are Visible<br/>
+<a href="#Output-1101721002" onClick='toggleBox("Output-1101721002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1101721002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1101721002">
+Test Started: ProductDetailPage at  Date and Time : 2025-02-23 22:47:52 Duration: 0s<br/>
+Click the SearchBar <br/>
+Enter the Keywords in the SearchBar <br/>
+Click the Search Icon <br/>
+Verify the Products Detail Page<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProductDetailPage.png">ProductDetail_click</a><br/>
+Test Passed: ProductDetailPage at  Date and Time : 2025-02-23 22:47:57 Duration: 4s<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>products_details.products_detail_page@93081b6</td></tr>
+<tr>
+<td title='searchbar_visibility.searchbar_visibility.SearchbarClickable()'><b>SearchbarClickable</b><br>Test class: searchbar_visibility.searchbar_visibility<br>Test method: Verify the SearchBar are Clickable<br/>
+<a href="#Output-1906335777" onClick='toggleBox("Output-1906335777", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1906335777" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1906335777">
+Test Started: SearchbarClickable at  Date and Time : 2025-02-23 22:49:22 Duration: 0s<br/>
+Click the searchbar<br/>
+Click the searchbar and the Enter the Values (eg..fastracks)<br/>
+Verify the  SearchBar is Clickable<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testSearchbarClickable.png">SearchBar_Click</a><br/>
+Test Passed: SearchbarClickable at  Date and Time : 2025-02-23 22:49:24 Duration: 2s<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>searchbar_visibility.searchbar_visibility@26adfd2d</td></tr>
+<tr>
+<td title='accountfunctionality.login_button.LoginButtonVisibility()'><b>LoginButtonVisibility</b><br>Test class: accountfunctionality.login_button<br>Test method: Verify the login Button is Visible <br/>
+<a href="#Output-369838089" onClick='toggleBox("Output-369838089", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-369838089" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-369838089">
+Test Started: LoginButtonVisibility at  Date and Time : 2025-02-23 22:49:46 Duration: 0s<br/>
+Verify the SignIn is  Hover<br/>
+Verify the login Button is Visible<br/>
+<a href='null'>Screenshot</a><br/>
+Test Passed: LoginButtonVisibility at  Date and Time : 2025-02-23 22:49:46 Duration: 0s<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>accountfunctionality.login_button@205d38da</td></tr>
+<tr>
+<td title='Snapdeal_login.Snapdeal_rigister.RegisterWithEmptyEmailField()'><b>RegisterWithEmptyEmailField</b><br>Test class: Snapdeal_login.Snapdeal_rigister<br>Test method: Verify the Register Functionality <br/>
+<a href="#Output-733357076" onClick='toggleBox("Output-733357076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-733357076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-733357076">
+Test Started: RegisterWithEmptyEmailField at  Date and Time : 2025-02-23 22:49:56 Duration: 0s<br/>
+Hover on the 'Sign In' button <br/>
+Click on the 'Register' button <br/>
+Click on the 'mobileNumberField' enter the Mobile Number <br/>
+Click on the 'Continue' button <br/>
+Click on the 'emailField' empty space <br/>
+Click on the 'nameField' enter the enter the Name <br/>
+Click on the 'passwordField' enter the enter the Password <br/>
+Click on the 'Continue' button <br/>
+Verify the Error message for empty email field is empty<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testRegisterWithEmptyEmailField.png">Register_Click</a><br/>
+Test Passed: RegisterWithEmptyEmailField at  Date and Time : 2025-02-23 22:49:58 Duration: 1s<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Snapdeal_login.Snapdeal_rigister@6950ed69</td></tr>
+<tr>
+<td title='accountfunctionality.login_button.LoginButtonClickable()'><b>LoginButtonClickable</b><br>Test class: accountfunctionality.login_button<br>Test method: Verify the login Button is Clickable<br/>
+<a href="#Output-245867715" onClick='toggleBox("Output-245867715", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-245867715" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-245867715">
+Test Started: LoginButtonClickable at  Date and Time : 2025-02-23 22:49:47 Duration: 0s<br/>
+Verify the SignIn is Hover<br/>
+Verify the login Button is Clickable<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testLoginButtonClickable.png">Login_button_Click</a><br/>
+Test Passed: LoginButtonClickable at  Date and Time : 2025-02-23 22:49:52 Duration: 5s<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>accountfunctionality.login_button@205d38da</td></tr>
+<tr>
+<td title='accountfunctionality.signin_visibility.SignInButtonVisibility()'><b>SignInButtonVisibility</b><br>Test class: accountfunctionality.signin_visibility<br>Test method: Verify the SignIn Button is Visible<br/>
+<a href="#Output-558913557" onClick='toggleBox("Output-558913557", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-558913557" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-558913557">
+Test Started: SignInButtonVisibility at  Date and Time : 2025-02-23 22:49:28 Duration: 0s<br/>
+Verify the SignIn  is Hover<br/>
+Verify the Register  is Visible<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\SignInButtonVisibility.png">SignIn_Visible_Click</a><br/>
+Test Passed: SignInButtonVisibility at  Date and Time : 2025-02-23 22:49:28 Duration: 0s<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>accountfunctionality.signin_visibility@3336e6b6</td></tr>
+<tr>
+<td title='searchbar_visibility.searchbar_visibility.testSearchbarVisibility()'><b>testSearchbarVisibility</b><br>Test class: searchbar_visibility.searchbar_visibility<br>Test method: Verify the SearchBar are Visible<br/>
+<a href="#Output-1338229093" onClick='toggleBox("Output-1338229093", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1338229093" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1338229093">
+Test Started: testSearchbarVisibility at  Date and Time : 2025-02-23 22:49:22 Duration: 0s<br/>
+Verify the  Search Bar Visibility<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testSearchbarVisibility.png">click</a><br/>
+Test Passed: testSearchbarVisibility at  Date and Time : 2025-02-23 22:49:22 Duration: 0s<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>searchbar_visibility.searchbar_visibility@26adfd2d</td></tr>
+<tr>
+<td title='snapdeal_catagories.products_catagories.Product_catagories_Visibility()'><b>Product_catagories_Visibility</b><br>Test class: snapdeal_catagories.products_catagories<br>Test method: Verify the Category banner are Visible<br/>
+<a href="#Output-384752294" onClick='toggleBox("Output-384752294", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-384752294" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-384752294">
+Test Started: Product_catagories_Visibility at  Date and Time : 2025-02-23 22:49:04 Duration: 0s<br/>
+Find the cartegories Banner<br/>
+Verify the  'Catagories Banner' is visible<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProduct_catagories_Visibility.png">click</a><br/>
+Test Passed: Product_catagories_Visibility at  Date and Time : 2025-02-23 22:49:04 Duration: 0s<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>snapdeal_catagories.products_catagories@2bec854f</td></tr>
+<tr>
+<td title='products_details.products_detail_page.testProduct_details()'><b>testProduct_details</b><br>Test class: products_details.products_detail_page<br>Test method: Verify the Products are Visible<br/>
+<a href="#Output-332234405" onClick='toggleBox("Output-332234405", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-332234405" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-332234405">
+Test Started: testProduct_details at  Date and Time : 2025-02-23 22:47:42 Duration: 0s<br/>
+Click the SearchBar <br/>
+Enter the Keywords in the SearchBar <br/>
+Click the Search Icon <br/>
+Verify the Products are Visible<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testProduct_details.png">click</a><br/>
+Test Passed: testProduct_details at  Date and Time : 2025-02-23 22:47:52 Duration: 10s<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>products_details.products_detail_page@93081b6</td></tr>
+<tr>
+<td title='Snapdeal_Footerbanner.Footer_policyinfo.footer_policyinfo()'><b>footer_policyinfo</b><br>Test class: Snapdeal_Footerbanner.Footer_policyinfo<br>Test method: Verify the Policyinfo is Displayed<br/>
+<a href="#Output-1038988454" onClick='toggleBox("Output-1038988454", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1038988454" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1038988454">
+Test Started: footer_policyinfo at  Date and Time : 2025-02-23 22:47:36 Duration: 0s<br/>
+Find the 'Policy info', in Footer<br/>
+Verify the  Footer in 'Policy info' is visible.<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testfooter_policyinfo.png">click</a><br/>
+Test Passed: footer_policyinfo at  Date and Time : 2025-02-23 22:47:36 Duration: 0s<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Snapdeal_Footerbanner.Footer_policyinfo@24c22fe</td></tr>
+<tr>
+<td title='Snapdeal_login.Snapdeal_login.Login()'><b>Login</b><br>Test class: Snapdeal_login.Snapdeal_login<br>Test method: Verify the Login Functionality <br/>
+<a href="#Output-198250778" onClick='toggleBox("Output-198250778", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-198250778" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-198250778">
+Test Started: Login at  Date and Time : 2025-02-23 22:48:54 Duration: 0s<br/>
+Hover over the 'Sign In' button <br/>
+Click  the 'Login' button <br/>
+Click  the 'usernameField' enter the values <br/>
+Click  the 'Continue' button <br/>
+Click  the 'otpField' enter the values <br/>
+Verify the  Login page is displayed.<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\test_Login.png">Login_Click</a><br/>
+Test Passed: Login at  Date and Time : 2025-02-23 22:48:57 Duration: 2s<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>Snapdeal_login.Snapdeal_login@1890516e</td></tr>
+<tr>
+<td title='snapdeal_catagories.products_catagories.Catagory_Bags_Luggage()'><b>Catagory_Bags_Luggage</b><br>Test class: snapdeal_catagories.products_catagories<br>Test method: Verify the Bag & Luggage Category are Visible<br/>
+<a href="#Output-2043702205" onClick='toggleBox("Output-2043702205", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2043702205" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2043702205">
+Test Started: Catagory_Bags_Luggage at  Date and Time : 2025-02-23 22:49:04 Duration: 0s<br/>
+Find the cartegories Banner<br/>
+categories Banner in Find the Bags & Luggage<br/>
+Click the 'Bags & Luggage'<br/>
+Verify the  'Backpacks' catagory is clickable.<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testCatagory_MensFashion_access.png">Categories_Click</a><br/>
+Test Passed: Catagory_Bags_Luggage at  Date and Time : 2025-02-23 22:49:07 Duration: 2s<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>snapdeal_catagories.products_catagories@2bec854f</td></tr>
+<tr>
+<td title='Snapdeal_login.Snapdeal_logo.LogoVisibility()'><b>LogoVisibility</b><br>Test class: Snapdeal_login.Snapdeal_logo<br>Test method: Verify the Brand Logo's are Displayed <br/>
+<a href="#Output-891175246" onClick='toggleBox("Output-891175246", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-891175246" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-891175246">
+Test Started: LogoVisibility at  Date and Time : 2025-02-23 22:48:47 Duration: 0s<br/>
+Verify the  Snapdeal_brand Logo's are displayed.<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testLogoVisibility.png">SnapdealLogo_Click</a><br/>
+Test Passed: LogoVisibility at  Date and Time : 2025-02-23 22:48:47 Duration: 0s<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Snapdeal_login.Snapdeal_logo@7ba8c737</td></tr>
+<tr>
+<td title='Snapdeal_Footerbanner.Footer_policyinfo.Footer_policyList()'><b>Footer_policyList</b><br>Test class: Snapdeal_Footerbanner.Footer_policyinfo<br>Test method: Verify the Policyinfo list are Visible<br/>
+<a href="#Output-687892306" onClick='toggleBox("Output-687892306", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-687892306" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-687892306">
+Test Started: Footer_policyList at  Date and Time : 2025-02-23 22:47:37 Duration: 0s<br/>
+Find the 'Policy info', in Footer<br/>
+Verify the  Footer in 'Policy info' is visible.<br/>
+Verify the  Footer in 'Terms of Sale' is visible.<br/>
+Verify the  Footer in 'Terms of use' is visible.<br/>
+Verify the  Footer in 'Takedown Policy' is visible.<br/>
+Verify the  Footer in 'BIS Standard Policy' is visible.<br/>
+Verify the  Footer in 'Products Under Cumpulsory BIS Certification' is visible.<br/>
+Verify the  Footer in 'FAQ' is visible.<br/>
+Verify the  Footer policy Info List<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testFooter_policyList.png">FooterPolicy_click</a><br/>
+Test Passed: Footer_policyList at  Date and Time : 2025-02-23 22:47:38 Duration: 1s<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>Snapdeal_Footerbanner.Footer_policyinfo@24c22fe</td></tr>
+<tr>
+<td title='Snapdeal_Product_search.product_search.searchInvalidProduct()'><b>searchInvalidProduct</b><br>Test class: Snapdeal_Product_search.product_search<br>Test method: Verify the Invalid product Banner are Visible<br/>
+<a href="#Output-1689718593" onClick='toggleBox("Output-1689718593", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1689718593" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1689718593">
+Test Started: searchInvalidProduct at  Date and Time : 2025-02-23 22:49:37 Duration: 0s<br/>
+Entered product name 'xhgr' into search bar.<br/>
+Clicked on search icon<br/>
+Verify the  Valid product search results are displayed.<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\searchInvalidProduct.png">ProductSearch_Click</a><br/>
+Test Passed: searchInvalidProduct at  Date and Time : 2025-02-23 22:49:41 Duration: 3s<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>Snapdeal_Product_search.product_search@7c3fdb62</td></tr>
+<tr>
+<td title='products_visible.products_visibility.SearchAndProductVisibility()'><b>SearchAndProductVisibility</b><br>Test class: products_visible.products_visibility<br>Test method: Verify the Products are Visibility<br/>
+<a href="#Output-480118726" onClick='toggleBox("Output-480118726", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-480118726" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-480118726">
+Test Started: SearchAndProductVisibility at  Date and Time : 2025-02-23 22:49:12 Duration: 0s<br/>
+click on the search Box <br/>
+Enter the Keywords to find the products <br/>
+Verify the Products Serach & Products Visibility<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\testSearchAndProductVisibility.png">Products_visibilityclick</a><br/>
+Test Passed: SearchAndProductVisibility at  Date and Time : 2025-02-23 22:49:14 Duration: 2s<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>products_visible.products_visibility@31edaa7d</td></tr>
+<tr>
+<td title='accountfunctionality.signin_visibility.SignInButtonClickable()'><b>SignInButtonClickable</b><br>Test class: accountfunctionality.signin_visibility<br>Test method: Verify the Signin Button is Clickable<br/>
+<a href="#Output-284660111" onClick='toggleBox("Output-284660111", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-284660111" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-284660111">
+Test Started: SignInButtonClickable at  Date and Time : 2025-02-23 22:49:29 Duration: 0s<br/>
+Verify the SignIn  is Hover<br/>
+Verify the Register  is Clickable<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\SignInButtonClickable.png">SignIn_Click</a><br/>
+Test Passed: SignInButtonClickable at  Date and Time : 2025-02-23 22:49:29 Duration: 0s<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>accountfunctionality.signin_visibility@3336e6b6</td></tr>
+<tr>
+<td title='Snapdeal_Product_search.product_search.searchValidProduct()'><b>searchValidProduct</b><br>Test class: Snapdeal_Product_search.product_search<br>Test method: Verify the valid Products List are Visible<br/>
+<a href="#Output-1897372527" onClick='toggleBox("Output-1897372527", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1897372527" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1897372527">
+Test Started: searchValidProduct at  Date and Time : 2025-02-23 22:49:31 Duration: 0s<br/>
+Clicked on search bar<br/>
+Entered product name 'shoes' into search bar.<br/>
+Clicked on search bar icon<br/>
+Verify the  Valid product search results are displayed.<br/>
+<a href= "C:\Users\venkatesh.baskaran\eclipse-workspace\snapdeal_app\Screenshots\searchValidProduct.png">click</a><br/>
+Test Passed: searchValidProduct at  Date and Time : 2025-02-23 22:49:36 Duration: 5s<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Snapdeal_Product_search.product_search@7c3fdb62</td></tr>
+</table><p>
+</body>
+</html>
